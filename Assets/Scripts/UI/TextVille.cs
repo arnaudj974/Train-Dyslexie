@@ -10,6 +10,7 @@ public class TextVille : MonoBehaviour
     void Start()
     {
         text=GetComponent<TextMeshProUGUI>();
+        delaiMax += Random.Range(-0.1f, 0.1f);
     }
 
     void Update()
