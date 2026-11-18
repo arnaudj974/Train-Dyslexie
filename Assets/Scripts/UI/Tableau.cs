@@ -5,8 +5,11 @@ using UnityEngine.UI;
 public class Tableau : MonoBehaviour
 {
     [SerializeField] Image conteneur;
+    [SerializeField] Button btnHide;
+    [SerializeField] Button btnShow;
     void Start()
     {
+        btnShow.gameObject.SetActive(false);
         ChangeCouleurLigne();
         ChangeNumVoie();
     }
@@ -41,4 +44,12 @@ public class Tableau : MonoBehaviour
         }
     }
 
+    public void AfficheTableau(bool show)
+    {
+        Debug.Log(show);
+        conteneur.gameObject.SetActive(!show);
+        btnHide.gameObject.SetActive(!show);
+        btnShow.gameObject.SetActive(show);
+    }
+    
 }
