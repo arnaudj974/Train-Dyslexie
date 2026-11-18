@@ -1,0 +1,5083 @@
+fileFormatVersion: 2
+guid: 545d3ebe99862cf4db577fa6ea54e463
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8966833978417379849
+    second: train_station_tileset_spaced_0
+  - first:
+      213: 4045110101785590547
+    second: train_station_tileset_spaced_1
+  - first:
+      213: -6900995216773975183
+    second: train_station_tileset_spaced_2
+  - first:
+      213: -187128275307278767
+    second: train_station_tileset_spaced_3
+  - first:
+      213: -6306849230512674344
+    second: train_station_tileset_spaced_4
+  - first:
+      213: -4577097743900122500
+    second: train_station_tileset_spaced_5
+  - first:
+      213: -7566356583328119042
+    second: train_station_tileset_spaced_6
+  - first:
+      213: 1114076697603570291
+    second: train_station_tileset_spaced_7
+  - first:
+      213: 2553717120722709940
+    second: train_station_tileset_spaced_8
+  - first:
+      213: -5361659696238514731
+    second: train_station_tileset_spaced_9
+  - first:
+      213: -6720492712224344406
+    second: train_station_tileset_spaced_10
+  - first:
+      213: 4030632221828507887
+    second: train_station_tileset_spaced_11
+  - first:
+      213: 4816178912602772766
+    second: train_station_tileset_spaced_12
+  - first:
+      213: 7297870235325708823
+    second: train_station_tileset_spaced_13
+  - first:
+      213: -642217311804524626
+    second: train_station_tileset_spaced_14
+  - first:
+      213: -3207679336993158585
+    second: train_station_tileset_spaced_15
+  - first:
+      213: -1882317849477111849
+    second: train_station_tileset_spaced_16
+  - first:
+      213: -4214453673727375813
+    second: train_station_tileset_spaced_17
+  - first:
+      213: -1931191424045808145
+    second: train_station_tileset_spaced_18
+  - first:
+      213: 2572463353668192790
+    second: train_station_tileset_spaced_19
+  - first:
+      213: 518013893446163899
+    second: train_station_tileset_spaced_20
+  - first:
+      213: -7715744989486031629
+    second: train_station_tileset_spaced_21
+  - first:
+      213: -4684367910520621836
+    second: train_station_tileset_spaced_22
+  - first:
+      213: 1407407157218616933
+    second: train_station_tileset_spaced_23
+  - first:
+      213: 868561782945085706
+    second: train_station_tileset_spaced_24
+  - first:
+      213: 1238103169685802792
+    second: train_station_tileset_spaced_25
+  - first:
+      213: 8971453662877715970
+    second: train_station_tileset_spaced_26
+  - first:
+      213: -532395785495408449
+    second: train_station_tileset_spaced_27
+  - first:
+      213: 8332307795776544108
+    second: train_station_tileset_spaced_28
+  - first:
+      213: 5377667136366314664
+    second: train_station_tileset_spaced_29
+  - first:
+      213: 651031239547188540
+    second: train_station_tileset_spaced_30
+  - first:
+      213: 797975575731208623
+    second: train_station_tileset_spaced_31
+  - first:
+      213: -1010937858651599655
+    second: train_station_tileset_spaced_32
+  - first:
+      213: -2307558285212374927
+    second: train_station_tileset_spaced_33
+  - first:
+      213: 755959630870251779
+    second: train_station_tileset_spaced_34
+  - first:
+      213: -2864902000514613567
+    second: train_station_tileset_spaced_35
+  - first:
+      213: -4050158378708826953
+    second: train_station_tileset_spaced_36
+  - first:
+      213: -2671862510086696084
+    second: train_station_tileset_spaced_37
+  - first:
+      213: 6474385198687189490
+    second: train_station_tileset_spaced_38
+  - first:
+      213: -8826453667408108736
+    second: train_station_tileset_spaced_39
+  - first:
+      213: 1308475272903162549
+    second: train_station_tileset_spaced_40
+  - first:
+      213: -4761324211055424610
+    second: train_station_tileset_spaced_41
+  - first:
+      213: -899915413248988598
+    second: train_station_tileset_spaced_42
+  - first:
+      213: -7477236550466800492
+    second: train_station_tileset_spaced_43
+  - first:
+      213: -552314832985055248
+    second: train_station_tileset_spaced_44
+  - first:
+      213: -3879367092523852753
+    second: train_station_tileset_spaced_45
+  - first:
+      213: -2606255374777672476
+    second: train_station_tileset_spaced_46
+  - first:
+      213: 8154068134751472606
+    second: train_station_tileset_spaced_47
+  - first:
+      213: -5145994218699830618
+    second: train_station_tileset_spaced_48
+  - first:
+      213: 3332833385314164632
+    second: train_station_tileset_spaced_49
+  - first:
+      213: -2444557229783604685
+    second: train_station_tileset_spaced_50
+  - first:
+      213: -8191066491222467185
+    second: train_station_tileset_spaced_51
+  - first:
+      213: -2723263800384712347
+    second: train_station_tileset_spaced_52
+  - first:
+      213: -3364167647536810188
+    second: train_station_tileset_spaced_53
+  - first:
+      213: -6908628643318761107
+    second: train_station_tileset_spaced_54
+  - first:
+      213: -7377063193023904949
+    second: train_station_tileset_spaced_55
+  - first:
+      213: 7519855851873822423
+    second: train_station_tileset_spaced_56
+  - first:
+      213: 611359428174069181
+    second: train_station_tileset_spaced_57
+  - first:
+      213: 605726092067258243
+    second: train_station_tileset_spaced_58
+  - first:
+      213: 5975946909356287143
+    second: train_station_tileset_spaced_59
+  - first:
+      213: 77746354966547767
+    second: train_station_tileset_spaced_60
+  - first:
+      213: -8001526507010422256
+    second: train_station_tileset_spaced_61
+  - first:
+      213: 3237936333317832092
+    second: train_station_tileset_spaced_62
+  - first:
+      213: 4285314923115254246
+    second: train_station_tileset_spaced_63
+  - first:
+      213: 2780686555823319289
+    second: train_station_tileset_spaced_64
+  - first:
+      213: 5396488770109640553
+    second: train_station_tileset_spaced_65
+  - first:
+      213: -7572620971555035220
+    second: train_station_tileset_spaced_66
+  - first:
+      213: 12464232818794872
+    second: train_station_tileset_spaced_67
+  - first:
+      213: -1613679371581519462
+    second: train_station_tileset_spaced_68
+  - first:
+      213: -438863911366519687
+    second: train_station_tileset_spaced_69
+  - first:
+      213: -3464800279925607668
+    second: train_station_tileset_spaced_70
+  - first:
+      213: 1989402584907356571
+    second: train_station_tileset_spaced_71
+  - first:
+      213: 110594060551713392
+    second: train_station_tileset_spaced_72
+  - first:
+      213: 8506943117153115690
+    second: train_station_tileset_spaced_73
+  - first:
+      213: -6616376868620444654
+    second: train_station_tileset_spaced_74
+  - first:
+      213: 6853438076623044937
+    second: train_station_tileset_spaced_75
+  - first:
+      213: 4805101568770129646
+    second: train_station_tileset_spaced_76
+  - first:
+      213: 7808740080342092298
+    second: train_station_tileset_spaced_77
+  - first:
+      213: 6898079337477148153
+    second: train_station_tileset_spaced_78
+  - first:
+      213: -4350077196974352074
+    second: train_station_tileset_spaced_79
+  - first:
+      213: -114164111180287383
+    second: train_station_tileset_spaced_80
+  - first:
+      213: -8890954100804550637
+    second: train_station_tileset_spaced_81
+  - first:
+      213: -4456032987533136374
+    second: train_station_tileset_spaced_82
+  - first:
+      213: -5361628567207405222
+    second: train_station_tileset_spaced_83
+  - first:
+      213: 5404104175212612220
+    second: train_station_tileset_spaced_84
+  - first:
+      213: -6386287841649786498
+    second: train_station_tileset_spaced_85
+  - first:
+      213: 1899942741348763896
+    second: train_station_tileset_spaced_86
+  - first:
+      213: 1112604802685299498
+    second: train_station_tileset_spaced_87
+  - first:
+      213: -1249711197350924174
+    second: train_station_tileset_spaced_88
+  - first:
+      213: -4065245313987619015
+    second: train_station_tileset_spaced_89
+  - first:
+      213: -7711533664580765866
+    second: train_station_tileset_spaced_90
+  - first:
+      213: 1380602023742694156
+    second: train_station_tileset_spaced_91
+  - first:
+      213: -3490472131678672542
+    second: train_station_tileset_spaced_92
+  - first:
+      213: 1473463650685824263
+    second: train_station_tileset_spaced_93
+  - first:
+      213: -3865876472663152225
+    second: train_station_tileset_spaced_94
+  - first:
+      213: -1162095111200271240
+    second: train_station_tileset_spaced_95
+  - first:
+      213: -6266589687323212163
+    second: train_station_tileset_spaced_96
+  - first:
+      213: 6228351369439216050
+    second: train_station_tileset_spaced_97
+  - first:
+      213: 5317134697740269128
+    second: train_station_tileset_spaced_98
+  - first:
+      213: 6245337032818337606
+    second: train_station_tileset_spaced_99
+  - first:
+      213: 1101282251510703591
+    second: train_station_tileset_spaced_100
+  - first:
+      213: -4284427640239561931
+    second: train_station_tileset_spaced_101
+  - first:
+      213: 373717822268151281
+    second: train_station_tileset_spaced_102
+  - first:
+      213: 3657702736888463502
+    second: train_station_tileset_spaced_103
+  - first:
+      213: 8958376062899857844
+    second: train_station_tileset_spaced_104
+  - first:
+      213: -6240133729111322338
+    second: train_station_tileset_spaced_105
+  - first:
+      213: 6001939617282567881
+    second: train_station_tileset_spaced_106
+  - first:
+      213: 2646013717465992753
+    second: train_station_tileset_spaced_107
+  - first:
+      213: 395612967091383334
+    second: train_station_tileset_spaced_108
+  - first:
+      213: 2522298726977747579
+    second: train_station_tileset_spaced_109
+  - first:
+      213: 5806419058460984763
+    second: train_station_tileset_spaced_110
+  - first:
+      213: -40486744753587505
+    second: train_station_tileset_spaced_111
+  - first:
+      213: -2428168753320388618
+    second: train_station_tileset_spaced_112
+  - first:
+      213: 3801019618509766154
+    second: train_station_tileset_spaced_113
+  - first:
+      213: -4542328684770271851
+    second: train_station_tileset_spaced_114
+  - first:
+      213: -7439094457934335992
+    second: train_station_tileset_spaced_115
+  - first:
+      213: 2794807589268229360
+    second: train_station_tileset_spaced_116
+  - first:
+      213: 5637621815144729234
+    second: train_station_tileset_spaced_117
+  - first:
+      213: -3464462730583645866
+    second: train_station_tileset_spaced_118
+  - first:
+      213: 7227292947011084398
+    second: train_station_tileset_spaced_119
+  - first:
+      213: 9170631070510702255
+    second: train_station_tileset_spaced_120
+  - first:
+      213: -7673191344922988684
+    second: train_station_tileset_spaced_121
+  - first:
+      213: -3067416947116455811
+    second: train_station_tileset_spaced_122
+  - first:
+      213: 3781662369754849896
+    second: train_station_tileset_spaced_123
+  - first:
+      213: -1580293436876121132
+    second: train_station_tileset_spaced_124
+  - first:
+      213: 4731412661214635119
+    second: train_station_tileset_spaced_125
+  - first:
+      213: -3173049495886557718
+    second: train_station_tileset_spaced_126
+  - first:
+      213: -6157672106137139863
+    second: train_station_tileset_spaced_127
+  - first:
+      213: 4349459171631477612
+    second: train_station_tileset_spaced_128
+  - first:
+      213: 6206073946184148884
+    second: train_station_tileset_spaced_129
+  - first:
+      213: 6300096705035823146
+    second: train_station_tileset_spaced_130
+  - first:
+      213: -8932362844976287779
+    second: train_station_tileset_spaced_131
+  - first:
+      213: -3278123320390968293
+    second: train_station_tileset_spaced_132
+  - first:
+      213: 6580794565202171700
+    second: train_station_tileset_spaced_133
+  - first:
+      213: -4854408041682415841
+    second: train_station_tileset_spaced_134
+  - first:
+      213: -3329951480155545347
+    second: train_station_tileset_spaced_135
+  - first:
+      213: 8141741837154741603
+    second: train_station_tileset_spaced_136
+  - first:
+      213: -327518068404957195
+    second: train_station_tileset_spaced_137
+  - first:
+      213: -933468384350118157
+    second: train_station_tileset_spaced_138
+  - first:
+      213: -4407188942528685188
+    second: train_station_tileset_spaced_139
+  - first:
+      213: 8726399344694110747
+    second: train_station_tileset_spaced_140
+  - first:
+      213: -8265255556125449941
+    second: train_station_tileset_spaced_141
+  - first:
+      213: -5914089087850107725
+    second: train_station_tileset_spaced_142
+  - first:
+      213: 7871868637867692225
+    second: train_station_tileset_spaced_143
+  - first:
+      213: 7130665568206641261
+    second: train_station_tileset_spaced_144
+  - first:
+      213: 7837110346135589018
+    second: train_station_tileset_spaced_145
+  - first:
+      213: -4002607009237766147
+    second: train_station_tileset_spaced_146
+  - first:
+      213: 4447329368842178139
+    second: train_station_tileset_spaced_147
+  - first:
+      213: -946905265066096761
+    second: train_station_tileset_spaced_148
+  - first:
+      213: -7147639334132431883
+    second: train_station_tileset_spaced_149
+  - first:
+      213: 5060976761368517944
+    second: train_station_tileset_spaced_150
+  - first:
+      213: -5220461971703291285
+    second: train_station_tileset_spaced_151
+  - first:
+      213: -8479822899892512716
+    second: train_station_tileset_spaced_152
+  - first:
+      213: -2235640920674059552
+    second: train_station_tileset_spaced_153
+  - first:
+      213: 8960764638113843003
+    second: train_station_tileset_spaced_154
+  - first:
+      213: -6006501431641077988
+    second: train_station_tileset_spaced_155
+  - first:
+      213: -84467569061221318
+    second: train_station_tileset_spaced_156
+  - first:
+      213: -8404138674770929403
+    second: train_station_tileset_spaced_157
+  - first:
+      213: 7511106559056066800
+    second: train_station_tileset_spaced_158
+  - first:
+      213: -5412199785787832451
+    second: train_station_tileset_spaced_159
+  - first:
+      213: 3595455556828101143
+    second: train_station_tileset_spaced_160
+  - first:
+      213: -837390646784152990
+    second: train_station_tileset_spaced_161
+  - first:
+      213: 8304872010911811659
+    second: train_station_tileset_spaced_162
+  - first:
+      213: -1023852073397708843
+    second: train_station_tileset_spaced_163
+  - first:
+      213: 826443832983201189
+    second: train_station_tileset_spaced_164
+  - first:
+      213: -2337258282121274998
+    second: train_station_tileset_spaced_165
+  - first:
+      213: -912304846762195477
+    second: train_station_tileset_spaced_166
+  - first:
+      213: 8996953123410253150
+    second: train_station_tileset_spaced_167
+  - first:
+      213: 8031630065182199158
+    second: train_station_tileset_spaced_168
+  - first:
+      213: 3615964047624846532
+    second: train_station_tileset_spaced_169
+  - first:
+      213: 4967571099753139492
+    second: train_station_tileset_spaced_170
+  - first:
+      213: -6751618497135422681
+    second: train_station_tileset_spaced_171
+  - first:
+      213: 3417639395685476996
+    second: train_station_tileset_spaced_172
+  - first:
+      213: 6269198713042882691
+    second: train_station_tileset_spaced_173
+  - first:
+      213: -8706589427112592345
+    second: train_station_tileset_spaced_174
+  - first:
+      213: 562770146889663178
+    second: train_station_tileset_spaced_175
+  - first:
+      213: 8973387542050062248
+    second: train_station_tileset_spaced_176
+  - first:
+      213: -8734525339876289952
+    second: train_station_tileset_spaced_177
+  - first:
+      213: 8347593063875987911
+    second: train_station_tileset_spaced_178
+  - first:
+      213: 5967678858094864706
+    second: train_station_tileset_spaced_179
+  - first:
+      213: -8786422022883150159
+    second: train_station_tileset_spaced_180
+  - first:
+      213: 8134345191276905999
+    second: train_station_tileset_spaced_181
+  - first:
+      213: 2518405705862932475
+    second: train_station_tileset_spaced_182
+  - first:
+      213: -2265425713251203890
+    second: train_station_tileset_spaced_183
+  - first:
+      213: -564109021776489898
+    second: train_station_tileset_spaced_184
+  - first:
+      213: -5170608552054162048
+    second: train_station_tileset_spaced_185
+  - first:
+      213: 695426755112848180
+    second: train_station_tileset_spaced_186
+  - first:
+      213: -3865778346798716231
+    second: train_station_tileset_spaced_187
+  - first:
+      213: -896363060866769358
+    second: train_station_tileset_spaced_188
+  - first:
+      213: 3635941886030865077
+    second: train_station_tileset_spaced_189
+  - first:
+      213: -4896669173270905059
+    second: train_station_tileset_spaced_190
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1347
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5878441086f8380800000000000000
+      internalID: -8966833978417379849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1347
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b3646a43e132830800000000000000
+      internalID: 4045110101785590547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1347
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1737483d96dba30a0800000000000000
+      internalID: -6900995216773975183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_3
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1347
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ec0e633df276df0800000000000000
+      internalID: -187128275307278767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1347
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9a85b3a029978a0800000000000000
+      internalID: -6306849230512674344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1347
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7267983ad1ea70c0800000000000000
+      internalID: -4577097743900122500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_6
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1347
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef60ac696c6eef690800000000000000
+      internalID: -7566356583328119042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_7
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1347
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a73359adef57f00800000000000000
+      internalID: 1114076697603570291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_8
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1347
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bda28de030a07320800000000000000
+      internalID: 2553717120722709940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_9
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1347
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddac2fd9ee8795b0800000000000000
+      internalID: -5361659696238514731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_10
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1347
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa634442c730cb2a0800000000000000
+      internalID: -6720492712224344406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_11
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1254
+        width: 145
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8e45a86aeafe730800000000000000
+      internalID: 4030632221828507887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_12
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1254
+        width: 98
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e155a6c243186d240800000000000000
+      internalID: 4816178912602772766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_13
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1254
+        width: 50
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a3c71305e374560800000000000000
+      internalID: 7297870235325708823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_14
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1254
+        width: 64
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7f84de1c26617f0800000000000000
+      internalID: -642217311804524626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_15
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 1253
+        width: 63
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a892553a80c73d0800000000000000
+      internalID: -3207679336993158585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_16
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1254
+        width: 73
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df1a8b83e9a0e5e0800000000000000
+      internalID: -1882317849477111849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_17
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1254
+        width: 118
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36c32f76b04385c0800000000000000
+      internalID: -4214453673727375813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_18
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 1254
+        width: 59
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe50878b1a70335e0800000000000000
+      internalID: -1931191424045808145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_19
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 1254
+        width: 65
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a4a196ac933b320800000000000000
+      internalID: 2572463353668192790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1266
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd539b34ea503700800000000000000
+      internalID: 518013893446163899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_21
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1265
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc5f24dfca2ce490800000000000000
+      internalID: -7715744989486031629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_22
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1266
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4fd284438cdfeb0800000000000000
+      internalID: -4684367910520621836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_23
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1265
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566ab5c4a5d188310800000000000000
+      internalID: 1407407157218616933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_24
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1265
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09fbe9f650cd0c00800000000000000
+      internalID: 868561782945085706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_25
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1265
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f4868e540ae2110800000000000000
+      internalID: 1238103169685802792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_26
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1265
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e04b6d291018c70800000000000000
+      internalID: 8971453662877715970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_27
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1265
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb091a59adc8c98f0800000000000000
+      internalID: -532395785495408449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_28
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1265
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d9a763bcd42a370800000000000000
+      internalID: 8332307795776544108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_29
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1265
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a40867b4cf41aa40800000000000000
+      internalID: 5377667136366314664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_30
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1265
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3574ea867de80900800000000000000
+      internalID: 651031239547188540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_31
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1185
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa185eaee8af21b00800000000000000
+      internalID: 797975575731208623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_32
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1185
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcc31daf5d68f1f0800000000000000
+      internalID: -1010937858651599655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_33
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1185
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178286f27f7e9ffd0800000000000000
+      internalID: -2307558285212374927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_34
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1185
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3098e8e6745bd7a00800000000000000
+      internalID: 755959630870251779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_35
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1185
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce35073fc2dd38d0800000000000000
+      internalID: -2864902000514613567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_36
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1185
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b40df8c962fac7c0800000000000000
+      internalID: -4050158378708826953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_37
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1185
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6359950433abead0800000000000000
+      internalID: -2671862510086696084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_38
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1184
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9fbc21903a9d950800000000000000
+      internalID: 6474385198687189490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_39
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1185
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04322bf6723228580800000000000000
+      internalID: -8826453667408108736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_40
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1185
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba76cef353a82210800000000000000
+      internalID: 1308475272903162549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_41
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1184
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b039b4bd06cedb0800000000000000
+      internalID: -4761324211055424610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_42
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1104
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a256913bbd283f0800000000000000
+      internalID: -899915413248988598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_43
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1104
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494fbd339f48b3890800000000000000
+      internalID: -7477236550466800492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_44
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1104
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff1fbfe598c558f0800000000000000
+      internalID: -552314832985055248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_45
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1104
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c96c0ee28b92ac0800000000000000
+      internalID: -3879367092523852753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_46
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1104
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec9c609b88b4dbd0800000000000000
+      internalID: -2606255374777672476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_47
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1104
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb813634c1192170800000000000000
+      internalID: 8154068134751472606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_48
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1104
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aace22d581c598b0800000000000000
+      internalID: -5145994218699830618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_49
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1104
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f963b4e4a904e20800000000000000
+      internalID: 3332833385314164632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_50
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1104
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332a2adb620331ed0800000000000000
+      internalID: -2444557229783604685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_51
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1104
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d5413ac6c735e80800000000000000
+      internalID: -8191066491222467185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_52
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1104
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56193648006053ad0800000000000000
+      internalID: -2723263800384712347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_53
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1064
+        width: 141
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437f4b349531051d0800000000000000
+      internalID: -3364167647536810188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_54
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1062
+        width: 56
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6975e53ade9f10a0800000000000000
+      internalID: -6908628643318761107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_55
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 1062
+        width: 112
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43833e7c186f9990800000000000000
+      internalID: -7377063193023904949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_56
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1062
+        width: 80
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6e41d2e05eb5860800000000000000
+      internalID: 7519855851873822423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_57
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1063
+        width: 60
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdb66a292cfb7800800000000000000
+      internalID: 611359428174069181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_58
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 1063
+        width: 134
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fbad4eba8f76800800000000000000
+      internalID: 605726092067258243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_59
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1063
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a466c85d04dee250800000000000000
+      internalID: 5975946909356287143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_60
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 1063
+        width: 77
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73dcc5ed5e5341100800000000000000
+      internalID: 77746354966547767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_61
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1011
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a85c8290ed4f090800000000000000
+      internalID: -8001526507010422256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_62
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1011
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d7db890f57fec20800000000000000
+      internalID: 3237936333317832092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_63
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1011
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e117fec73f787b30800000000000000
+      internalID: 4285314923115254246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_64
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1011
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8ad8790bbf69620800000000000000
+      internalID: 2780686555823319289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_65
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1011
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f05c0d1fd24ea40800000000000000
+      internalID: 5396488770109640553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_66
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1011
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7e9cb0955a8e690800000000000000
+      internalID: -7572620971555035220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_67
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1011
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871ef8957284c2000800000000000000
+      internalID: 12464232818794872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_68
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1011
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a990283492f0b99e0800000000000000
+      internalID: -1613679371581519462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_69
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1011
+        width: 130
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974924a0997d8e9f0800000000000000
+      internalID: -438863911366519687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_70
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 925
+        width: 86
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c033c51b08e8aefc0800000000000000
+      internalID: -3464800279925607668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_71
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 925
+        width: 113
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9995a45c17cb9b10800000000000000
+      internalID: 1989402584907356571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_72
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 924
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072f37d46b8e88100800000000000000
+      internalID: 110594060551713392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_73
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 924
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e9d5e71bbbe0670800000000000000
+      internalID: 8506943117153115690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_74
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 923
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c54c50b48ed24a0800000000000000
+      internalID: -6616376868620444654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_75
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 923
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941c04f9e9d4c1f50800000000000000
+      internalID: 6853438076623044937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_76
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 941
+        width: 127
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee37341b662fa240800000000000000
+      internalID: 4805101568770129646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_77
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 859
+        width: 148
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a45280bb73e5c60800000000000000
+      internalID: 7808740080342092298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_78
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 859
+        width: 162
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd89ce1c96eabf50800000000000000
+      internalID: 6898079337477148153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_79
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 858
+        width: 153
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63911d846db61a3c0800000000000000
+      internalID: -4350077196974352074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_80
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 857
+        width: 160
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962300388586a6ef0800000000000000
+      internalID: -114164111180287383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_81
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 857
+        width: 83
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3100e330a5cfc9480800000000000000
+      internalID: -8890954100804550637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_82
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 858
+        width: 102
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e2aae5b9df822c0800000000000000
+      internalID: -4456032987533136374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_83
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 751
+        width: 157
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59140aa93ba795b0800000000000000
+      internalID: -5361628567207405222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_84
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 751
+        width: 117
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ac0cc7d1c3ffa40800000000000000
+      internalID: 5404104175212612220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_85
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 751
+        width: 49
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7181154b095f57a0800000000000000
+      internalID: -6386287841649786498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_86
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 751
+        width: 50
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8ccaf5bd3fd5a10800000000000000
+      internalID: 1899942741348763896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_87
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 751
+        width: 72
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b63775c24c07f00800000000000000
+      internalID: 1112604802685299498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_88
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 751
+        width: 72
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270f11a894228aee0800000000000000
+      internalID: -1249711197350924174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_89
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 691
+        width: 158
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93752feece85597c0800000000000000
+      internalID: -4065245313987619015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_90
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 691
+        width: 110
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65772315df02bf490800000000000000
+      internalID: -7711533664580765866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_91
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 692
+        width: 55
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c036e51d932e82310800000000000000
+      internalID: 1380602023742694156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_92
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 692
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26964ece61a5f8fc0800000000000000
+      internalID: -3490472131678672542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_93
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 692
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d2490326bc27410800000000000000
+      internalID: 1473463650685824263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_94
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 681
+        width: 104
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f996f5594d5a95ac0800000000000000
+      internalID: -3865876472663152225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_95
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 685
+        width: 75
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87490b547a86fdfe0800000000000000
+      internalID: -1162095111200271240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_96
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 734
+        width: 139
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7649f591e99809a0800000000000000
+      internalID: -6266589687323212163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_97
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 679
+        width: 139
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b10ebf329c8f6650800000000000000
+      internalID: 6228351369439216050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_98
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 602
+        width: 121
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84676b116d14ac940800000000000000
+      internalID: 5317134697740269128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_99
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 618
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647aabf21f4eba650800000000000000
+      internalID: 6245337032818337606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_100
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 618
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5ecb67f5a884f00800000000000000
+      internalID: 1101282251510703591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_101
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 600
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533e7a5d2c7aa84c0800000000000000
+      internalID: -4284427640239561931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_102
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 600
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5968a1166bf2500800000000000000
+      internalID: 373717822268151281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_103
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 600
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8006368245c2c230800000000000000
+      internalID: 3657702736888463502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_104
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 600
+        width: 58
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b92281d09b825c70800000000000000
+      internalID: 8958376062899857844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_105
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 576
+        width: 114
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11d26d5f679669a0800000000000000
+      internalID: -6240133729111322338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_106
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 576
+        width: 114
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cea873484c2b4350800000000000000
+      internalID: 6001939617282567881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_107
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 577
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e0f54f47788b420800000000000000
+      internalID: 2646013717465992753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_108
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 578
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c2504c5ef7d7500800000000000000
+      internalID: 395612967091383334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_109
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 578
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7abde61451010320800000000000000
+      internalID: 2522298726977747579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_110
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 578
+        width: 103
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb500a4be5b849050800000000000000
+      internalID: 5806419058460984763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_111
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 577
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcab9d82589207ff0800000000000000
+      internalID: -40486744753587505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_112
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 577
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f792a342696d4ed0800000000000000
+      internalID: -2428168753320388618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_113
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 618
+        width: 139
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0eb091543fefb430800000000000000
+      internalID: 3801019618509766154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_114
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 440
+        width: 59
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d5333a02866f0c0800000000000000
+      internalID: -4542328684770271851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_115
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 555
+        width: 139
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8003f38210703c890800000000000000
+      internalID: -7439094457934335992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_116
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 439
+        width: 124
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc06e5e1b629c620800000000000000
+      internalID: 2794807589268229360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_117
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 439
+        width: 72
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ac1b5eb2bdc3e40800000000000000
+      internalID: 5637621815144729234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_118
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 439
+        width: 53
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6516bf58081cbefc0800000000000000
+      internalID: -3464462730583645866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_119
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 438
+        width: 52
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60284ab4a08c4460800000000000000
+      internalID: 7227292947011084398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_120
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 438
+        width: 51
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae53fbde50a44f70800000000000000
+      internalID: 9170631070510702255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_121
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 438
+        width: 65
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f63484029538590800000000000000
+      internalID: -7673191344922988684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_122
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 486
+        width: 111
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d784c19d9885e65d0800000000000000
+      internalID: -3067416947116455811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_123
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 486
+        width: 85
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86223b1a3e92b7430800000000000000
+      internalID: 3781662369754849896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_124
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 466
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db1e1eed7ba11ae0800000000000000
+      internalID: -1580293436876121132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_125
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 467
+        width: 44
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64eb7d4fba59a140800000000000000
+      internalID: 4731412661214635119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_126
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 467
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed03f68b4017f3d0800000000000000
+      internalID: -3173049495886557718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_127
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 465
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9654d5e18dd8b8aa0800000000000000
+      internalID: -6157672106137139863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_128
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 466
+        width: 44
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63b82a72126c5c30800000000000000
+      internalID: 4349459171631477612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_129
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 467
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497ec147f57602650800000000000000
+      internalID: 6206073946184148884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_130
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 468
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28e44ae2907e6750800000000000000
+      internalID: 6300096705035823146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_131
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 466
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf6a44715fd90480800000000000000
+      internalID: -8932362844976287779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_132
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 490
+        width: 73
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c1c265534c182d0800000000000000
+      internalID: -3278123320390968293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_133
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 490
+        width: 68
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43752be5acda35b50800000000000000
+      internalID: 6580794565202171700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_134
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 356
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f48b81b9da1acb0800000000000000
+      internalID: -4854408041682415841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_135
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 356
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0ea0a85c2a9c1d0800000000000000
+      internalID: -3329951480155545347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_136
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 356
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d6b8860174df070800000000000000
+      internalID: 8141741837154741603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_137
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 347
+        width: 41
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff43335d0c647bf0800000000000000
+      internalID: -327518068404957195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_138
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 422
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fed0cd3377ab03f0800000000000000
+      internalID: -933468384350118157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_139
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 422
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b5c8ec10586d2c0800000000000000
+      internalID: -4407188942528685188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_140
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 342
+        width: 45
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1aa1b438f56a1970800000000000000
+      internalID: 8726399344694110747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_141
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 338
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21a157ecd9eb4d80800000000000000
+      internalID: -8265255556125449941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_142
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 338
+        width: 87
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc2eac0f4feceda0800000000000000
+      internalID: -5914089087850107725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_143
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 335
+        width: 59
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c054a6b1de7e3d60800000000000000
+      internalID: 7871868637867692225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_144
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 379
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68d01ded8635f260800000000000000
+      internalID: 7130665568206641261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_145
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 379
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9053f6465203cc60800000000000000
+      internalID: 7837110346135589018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_146
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 354
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffe4eeb122e378c0800000000000000
+      internalID: -4002607009237766147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_147
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 354
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e000d7f7618bd30800000000000000
+      internalID: 4447329368842178139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_148
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 327
+        width: 89
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787c9c7adaaebd2f0800000000000000
+      internalID: -946905265066096761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_149
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 328
+        width: 90
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f34d6a35eb7ecc90800000000000000
+      internalID: -7147639334132431883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_150
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 327
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d90eddc833c3640800000000000000
+      internalID: 5060976761368517944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_151
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 327
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62a035fe713d87b0800000000000000
+      internalID: -5220461971703291285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_152
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 327
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4381fa5200e915a80800000000000000
+      internalID: -8479822899892512716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_153
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 329
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea35e57d6869f0e0800000000000000
+      internalID: -2235640920674059552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_154
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 329
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3748a256f70b5c70800000000000000
+      internalID: 8960764638113843003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_155
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 329
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17882095ce94aca0800000000000000
+      internalID: -6006501431641077988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_156
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 321
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ca0178139e3def0800000000000000
+      internalID: -84467569061221318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_157
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 321
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509182ff6608e5b80800000000000000
+      internalID: -8404138674770929403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_158
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 227
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8b4a2be9fcc3860800000000000000
+      internalID: 7511106559056066800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_159
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 172
+        width: 77
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77cbaa48f004e4b0800000000000000
+      internalID: -5412199785787832451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_160
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 171
+        width: 156
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a717687cf95e130800000000000000
+      internalID: 3595455556828101143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_161
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 172
+        width: 78
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a2238b4adf064f0800000000000000
+      internalID: -837390646784152990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_162
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 171
+        width: 68
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b488b73c715d04370800000000000000
+      internalID: 8304872010911811659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_163
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 172
+        width: 76
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7159eb6fb8ac1f0800000000000000
+      internalID: -1023852073397708843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_164
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 171
+        width: 88
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5a6c3994e187b00800000000000000
+      internalID: 826443832983201189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_165
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 172
+        width: 84
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8952d9c9f3609fd0800000000000000
+      internalID: -2337258282121274998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_166
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 171
+        width: 83
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be54fd15397d653f0800000000000000
+      internalID: -912304846762195477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_167
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 171
+        width: 96
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5595b5a2399bdc70800000000000000
+      internalID: 8996953123410253150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_168
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 171
+        width: 98
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d488aadf4167f60800000000000000
+      internalID: 8031630065182199158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_169
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 171
+        width: 111
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc3343a42c7e2230800000000000000
+      internalID: 3615964047624846532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_170
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 171
+        width: 98
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d484d889b50f440800000000000000
+      internalID: 4967571099753139492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_171
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 171
+        width: 82
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723594b9fbe6d42a0800000000000000
+      internalID: -6751618497135422681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_172
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 135
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48aa6364ce4ed6f20800000000000000
+      internalID: 3417639395685476996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_173
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 57
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380d14d830ba00750800000000000000
+      internalID: 6269198713042882691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_174
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 26
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c38c7ab0bfb2780800000000000000
+      internalID: -8706589427112592345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_175
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 26
+        width: 72
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac28d87877c5fc700800000000000000
+      internalID: 562770146889663178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_176
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 26
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af3fcb2d60e78c70800000000000000
+      internalID: 8973387542050062248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_177
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 26
+        width: 71
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062960b1b7bb8c680800000000000000
+      internalID: -8734525339876289952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_178
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 26
+        width: 71
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9c7d50aab98d370800000000000000
+      internalID: 8347593063875987911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_179
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 25
+        width: 74
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2496a56ad4471d250800000000000000
+      internalID: 5967678858094864706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_180
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 25
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6716ff8bb501680800000000000000
+      internalID: -8786422022883150159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_181
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 25
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0687769adff2e070800000000000000
+      internalID: 8134345191276905999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_182
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 26
+        width: 65
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7e64a75ac23f220800000000000000
+      internalID: 2518405705862932475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_183
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 25
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec440a801579f80e0800000000000000
+      internalID: -2265425713251203890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_184
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 24
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6525b6e55d1eb28f0800000000000000
+      internalID: -564109021776489898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_185
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 24
+        width: 73
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08df63ebaee4e38b0800000000000000
+      internalID: -5170608552054162048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_186
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 24
+        width: 65
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bcdc103f6a6a900800000000000000
+      internalID: 695426755112848180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_187
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 23
+        width: 82
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba6aaa431ff95ac0800000000000000
+      internalID: -3865778346798716231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_188
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 23
+        width: 115
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e11479b8a7f83f0800000000000000
+      internalID: -896363060866769358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_189
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 24
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b265dc91e5757230800000000000000
+      internalID: 3635941886030865077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train_station_tileset_spaced_190
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 24
+        width: 79
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ff490a4598b0cb0800000000000000
+      internalID: -4896669173270905059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      train_station_tileset_spaced_0: -8966833978417379849
+      train_station_tileset_spaced_1: 4045110101785590547
+      train_station_tileset_spaced_10: -6720492712224344406
+      train_station_tileset_spaced_100: 1101282251510703591
+      train_station_tileset_spaced_101: -4284427640239561931
+      train_station_tileset_spaced_102: 373717822268151281
+      train_station_tileset_spaced_103: 3657702736888463502
+      train_station_tileset_spaced_104: 8958376062899857844
+      train_station_tileset_spaced_105: -6240133729111322338
+      train_station_tileset_spaced_106: 6001939617282567881
+      train_station_tileset_spaced_107: 2646013717465992753
+      train_station_tileset_spaced_108: 395612967091383334
+      train_station_tileset_spaced_109: 2522298726977747579
+      train_station_tileset_spaced_11: 4030632221828507887
+      train_station_tileset_spaced_110: 5806419058460984763
+      train_station_tileset_spaced_111: -40486744753587505
+      train_station_tileset_spaced_112: -2428168753320388618
+      train_station_tileset_spaced_113: 3801019618509766154
+      train_station_tileset_spaced_114: -4542328684770271851
+      train_station_tileset_spaced_115: -7439094457934335992
+      train_station_tileset_spaced_116: 2794807589268229360
+      train_station_tileset_spaced_117: 5637621815144729234
+      train_station_tileset_spaced_118: -3464462730583645866
+      train_station_tileset_spaced_119: 7227292947011084398
+      train_station_tileset_spaced_12: 4816178912602772766
+      train_station_tileset_spaced_120: 9170631070510702255
+      train_station_tileset_spaced_121: -7673191344922988684
+      train_station_tileset_spaced_122: -3067416947116455811
+      train_station_tileset_spaced_123: 3781662369754849896
+      train_station_tileset_spaced_124: -1580293436876121132
+      train_station_tileset_spaced_125: 4731412661214635119
+      train_station_tileset_spaced_126: -3173049495886557718
+      train_station_tileset_spaced_127: -6157672106137139863
+      train_station_tileset_spaced_128: 4349459171631477612
+      train_station_tileset_spaced_129: 6206073946184148884
+      train_station_tileset_spaced_13: 7297870235325708823
+      train_station_tileset_spaced_130: 6300096705035823146
+      train_station_tileset_spaced_131: -8932362844976287779
+      train_station_tileset_spaced_132: -3278123320390968293
+      train_station_tileset_spaced_133: 6580794565202171700
+      train_station_tileset_spaced_134: -4854408041682415841
+      train_station_tileset_spaced_135: -3329951480155545347
+      train_station_tileset_spaced_136: 8141741837154741603
+      train_station_tileset_spaced_137: -327518068404957195
+      train_station_tileset_spaced_138: -933468384350118157
+      train_station_tileset_spaced_139: -4407188942528685188
+      train_station_tileset_spaced_14: -642217311804524626
+      train_station_tileset_spaced_140: 8726399344694110747
+      train_station_tileset_spaced_141: -8265255556125449941
+      train_station_tileset_spaced_142: -5914089087850107725
+      train_station_tileset_spaced_143: 7871868637867692225
+      train_station_tileset_spaced_144: 7130665568206641261
+      train_station_tileset_spaced_145: 7837110346135589018
+      train_station_tileset_spaced_146: -4002607009237766147
+      train_station_tileset_spaced_147: 4447329368842178139
+      train_station_tileset_spaced_148: -946905265066096761
+      train_station_tileset_spaced_149: -7147639334132431883
+      train_station_tileset_spaced_15: -3207679336993158585
+      train_station_tileset_spaced_150: 5060976761368517944
+      train_station_tileset_spaced_151: -5220461971703291285
+      train_station_tileset_spaced_152: -8479822899892512716
+      train_station_tileset_spaced_153: -2235640920674059552
+      train_station_tileset_spaced_154: 8960764638113843003
+      train_station_tileset_spaced_155: -6006501431641077988
+      train_station_tileset_spaced_156: -84467569061221318
+      train_station_tileset_spaced_157: -8404138674770929403
+      train_station_tileset_spaced_158: 7511106559056066800
+      train_station_tileset_spaced_159: -5412199785787832451
+      train_station_tileset_spaced_16: -1882317849477111849
+      train_station_tileset_spaced_160: 3595455556828101143
+      train_station_tileset_spaced_161: -837390646784152990
+      train_station_tileset_spaced_162: 8304872010911811659
+      train_station_tileset_spaced_163: -1023852073397708843
+      train_station_tileset_spaced_164: 826443832983201189
+      train_station_tileset_spaced_165: -2337258282121274998
+      train_station_tileset_spaced_166: -912304846762195477
+      train_station_tileset_spaced_167: 8996953123410253150
+      train_station_tileset_spaced_168: 8031630065182199158
+      train_station_tileset_spaced_169: 3615964047624846532
+      train_station_tileset_spaced_17: -4214453673727375813
+      train_station_tileset_spaced_170: 4967571099753139492
+      train_station_tileset_spaced_171: -6751618497135422681
+      train_station_tileset_spaced_172: 3417639395685476996
+      train_station_tileset_spaced_173: 6269198713042882691
+      train_station_tileset_spaced_174: -8706589427112592345
+      train_station_tileset_spaced_175: 562770146889663178
+      train_station_tileset_spaced_176: 8973387542050062248
+      train_station_tileset_spaced_177: -8734525339876289952
+      train_station_tileset_spaced_178: 8347593063875987911
+      train_station_tileset_spaced_179: 5967678858094864706
+      train_station_tileset_spaced_18: -1931191424045808145
+      train_station_tileset_spaced_180: -8786422022883150159
+      train_station_tileset_spaced_181: 8134345191276905999
+      train_station_tileset_spaced_182: 2518405705862932475
+      train_station_tileset_spaced_183: -2265425713251203890
+      train_station_tileset_spaced_184: -564109021776489898
+      train_station_tileset_spaced_185: -5170608552054162048
+      train_station_tileset_spaced_186: 695426755112848180
+      train_station_tileset_spaced_187: -3865778346798716231
+      train_station_tileset_spaced_188: -896363060866769358
+      train_station_tileset_spaced_189: 3635941886030865077
+      train_station_tileset_spaced_19: 2572463353668192790
+      train_station_tileset_spaced_190: -4896669173270905059
+      train_station_tileset_spaced_2: -6900995216773975183
+      train_station_tileset_spaced_20: 518013893446163899
+      train_station_tileset_spaced_21: -7715744989486031629
+      train_station_tileset_spaced_22: -4684367910520621836
+      train_station_tileset_spaced_23: 1407407157218616933
+      train_station_tileset_spaced_24: 868561782945085706
+      train_station_tileset_spaced_25: 1238103169685802792
+      train_station_tileset_spaced_26: 8971453662877715970
+      train_station_tileset_spaced_27: -532395785495408449
+      train_station_tileset_spaced_28: 8332307795776544108
+      train_station_tileset_spaced_29: 5377667136366314664
+      train_station_tileset_spaced_3: -187128275307278767
+      train_station_tileset_spaced_30: 651031239547188540
+      train_station_tileset_spaced_31: 797975575731208623
+      train_station_tileset_spaced_32: -1010937858651599655
+      train_station_tileset_spaced_33: -2307558285212374927
+      train_station_tileset_spaced_34: 755959630870251779
+      train_station_tileset_spaced_35: -2864902000514613567
+      train_station_tileset_spaced_36: -4050158378708826953
+      train_station_tileset_spaced_37: -2671862510086696084
+      train_station_tileset_spaced_38: 6474385198687189490
+      train_station_tileset_spaced_39: -8826453667408108736
+      train_station_tileset_spaced_4: -6306849230512674344
+      train_station_tileset_spaced_40: 1308475272903162549
+      train_station_tileset_spaced_41: -4761324211055424610
+      train_station_tileset_spaced_42: -899915413248988598
+      train_station_tileset_spaced_43: -7477236550466800492
+      train_station_tileset_spaced_44: -552314832985055248
+      train_station_tileset_spaced_45: -3879367092523852753
+      train_station_tileset_spaced_46: -2606255374777672476
+      train_station_tileset_spaced_47: 8154068134751472606
+      train_station_tileset_spaced_48: -5145994218699830618
+      train_station_tileset_spaced_49: 3332833385314164632
+      train_station_tileset_spaced_5: -4577097743900122500
+      train_station_tileset_spaced_50: -2444557229783604685
+      train_station_tileset_spaced_51: -8191066491222467185
+      train_station_tileset_spaced_52: -2723263800384712347
+      train_station_tileset_spaced_53: -3364167647536810188
+      train_station_tileset_spaced_54: -6908628643318761107
+      train_station_tileset_spaced_55: -7377063193023904949
+      train_station_tileset_spaced_56: 7519855851873822423
+      train_station_tileset_spaced_57: 611359428174069181
+      train_station_tileset_spaced_58: 605726092067258243
+      train_station_tileset_spaced_59: 5975946909356287143
+      train_station_tileset_spaced_6: -7566356583328119042
+      train_station_tileset_spaced_60: 77746354966547767
+      train_station_tileset_spaced_61: -8001526507010422256
+      train_station_tileset_spaced_62: 3237936333317832092
+      train_station_tileset_spaced_63: 4285314923115254246
+      train_station_tileset_spaced_64: 2780686555823319289
+      train_station_tileset_spaced_65: 5396488770109640553
+      train_station_tileset_spaced_66: -7572620971555035220
+      train_station_tileset_spaced_67: 12464232818794872
+      train_station_tileset_spaced_68: -1613679371581519462
+      train_station_tileset_spaced_69: -438863911366519687
+      train_station_tileset_spaced_7: 1114076697603570291
+      train_station_tileset_spaced_70: -3464800279925607668
+      train_station_tileset_spaced_71: 1989402584907356571
+      train_station_tileset_spaced_72: 110594060551713392
+      train_station_tileset_spaced_73: 8506943117153115690
+      train_station_tileset_spaced_74: -6616376868620444654
+      train_station_tileset_spaced_75: 6853438076623044937
+      train_station_tileset_spaced_76: 4805101568770129646
+      train_station_tileset_spaced_77: 7808740080342092298
+      train_station_tileset_spaced_78: 6898079337477148153
+      train_station_tileset_spaced_79: -4350077196974352074
+      train_station_tileset_spaced_8: 2553717120722709940
+      train_station_tileset_spaced_80: -114164111180287383
+      train_station_tileset_spaced_81: -8890954100804550637
+      train_station_tileset_spaced_82: -4456032987533136374
+      train_station_tileset_spaced_83: -5361628567207405222
+      train_station_tileset_spaced_84: 5404104175212612220
+      train_station_tileset_spaced_85: -6386287841649786498
+      train_station_tileset_spaced_86: 1899942741348763896
+      train_station_tileset_spaced_87: 1112604802685299498
+      train_station_tileset_spaced_88: -1249711197350924174
+      train_station_tileset_spaced_89: -4065245313987619015
+      train_station_tileset_spaced_9: -5361659696238514731
+      train_station_tileset_spaced_90: -7711533664580765866
+      train_station_tileset_spaced_91: 1380602023742694156
+      train_station_tileset_spaced_92: -3490472131678672542
+      train_station_tileset_spaced_93: 1473463650685824263
+      train_station_tileset_spaced_94: -3865876472663152225
+      train_station_tileset_spaced_95: -1162095111200271240
+      train_station_tileset_spaced_96: -6266589687323212163
+      train_station_tileset_spaced_97: 6228351369439216050
+      train_station_tileset_spaced_98: 5317134697740269128
+      train_station_tileset_spaced_99: 6245337032818337606
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
