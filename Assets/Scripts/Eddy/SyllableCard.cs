@@ -6,6 +6,7 @@ public class SyllableCard : MonoBehaviour
 {
     public TextMeshProUGUI texteSyllabe;
     public Button boutonCarte;
+    public Button boutonAudio;
     
     private string syllabeValeur;
     private AudioClip clipAudio;
@@ -23,11 +24,27 @@ public class SyllableCard : MonoBehaviour
         
         boutonCarte.onClick.RemoveAllListeners();
         boutonCarte.onClick.AddListener(OnCarteCliquee);
+
+        if (boutonAudio != null)
+        {
+            boutonAudio.onClick.RemoveAllListeners();
+            boutonAudio.onClick.AddListener(EcouterSyllabeSeule);
+            // Le bouton reste toujours actif et visible sur toutes les cartes
+            boutonAudio.gameObject.SetActive(true);
+
+        }
+    }
+
+    public void EcouterSyllabeSeule()
+    {
+        if (clipAudio != null)
+        {
+            gameManager.JouerSon(clipAudio);
+        }
     }
 
     private void OnCarteCliquee()
     {
-        // Jouer le son de la syllabe dès qu'on clique dessus
         if (clipAudio != null)
         {
             gameManager.JouerSon(clipAudio);

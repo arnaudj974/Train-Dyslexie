@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a5084a0870d04d9a9b50d9173cec8, type: 3}
+  m_Name: CouleurTrain
+  m_EditorClassIdentifier: Assembly-CSharp::WordData
+  motComplet: BLEU
+  imageObjet: {fileID: -5833429208363724465, guid: fa7267637115ba441af67ffd68342f17, type: 3}
+  audioMotComplet: {fileID: 8300000, guid: 4af91b23d9258054a978ddb0dc113724, type: 3}
+  syllabesCorrectes:
+  - B
+  - L
+  - E
+  - U
+  audioSyllabes:
+  - {fileID: 8300000, guid: d28753847930ab74eb02804feafd0bc4, type: 3}
+  - {fileID: 8300000, guid: c67ffda9d22bc9b468f24f8b6357f2cd, type: 3}
+  - {fileID: 8300000, guid: 63988773ea8c99947b109a1932c24e4d, type: 3}
+  - {fileID: 8300000, guid: 50bd01bc86ea8544e8d2bc987f546351, type: 3}
+  syllabesIntrus:
+  - J
+  - K
+  - R
+  audioSyllabesIntrus:
+  - {fileID: 8300000, guid: c5fea04deaff7884995f14eafaff2f6b, type: 3}
+  - {fileID: 8300000, guid: 8526b780294407a4b9197e444751acdf, type: 3}
+  - {fileID: 8300000, guid: 5cbd67ee26b23784ea718e5142eba63b, type: 3}

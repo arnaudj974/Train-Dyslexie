@@ -13,4 +13,5 @@ public class WordData : ScriptableObject
     
     [Header("Syllabes pièges (optionnel)")]
     public string[] syllabesIntrus;
+    public AudioClip[] audioSyllabesIntrus; // NOUVEAU : Sons des syllabes fausses
 }

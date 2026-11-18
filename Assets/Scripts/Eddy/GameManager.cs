@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,11 +17,11 @@ public class GameManager : MonoBehaviour
     public Transform zonePioche;
     public GameObject prefabCarteSyllabe;
     public TextMeshProUGUI texteFeedback;
-    public TextMeshProUGUI texteScore; // NOUVEAU : Référence au compteur
+    public TextMeshProUGUI texteScore;
 
-    [Header("Récompenses visuelles")] // NOUVEAU
-    public ParticleSystem effetVictoire; // NOUVEAU : Référence aux confettis
-    private int etoilesGagnees = 0; // NOUVEAU : Compteur interne
+    [Header("Récompenses visuelles")]
+    public ParticleSystem effetVictoire;
+    private int etoilesGagnees = 0;
 
     [Header("Audio")]
     public AudioSource lecteurAudio;
@@ -36,38 +37,55 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        ChargerMot(indexMotActuel);
+        if (listeMots != null && listeMots.Count > 0)
+        {
+            ChargerMot(indexMotActuel);
+        }
     }
 
     public void ChargerMot(int index)
     {
-        // Nettoyer les zones
+        // 1. Nettoyer les zones précédentes
         foreach (Transform child in zoneConstruction) Destroy(child.gameObject);
         foreach (Transform child in zonePioche) Destroy(child.gameObject);
         
         reponseJoueur.Clear();
         cartesPlacees.Clear();
-        texteFeedback.text = "";
+        if (texteFeedback != null) texteFeedback.text = "";
 
+        // 2. Charger les informations du mot actuel
         WordData mot = listeMots[index];
-        imageCibleUI.sprite = mot.imageObjet;
+        if (imageCibleUI != null) imageCibleUI.sprite = mot.imageObjet;
+		imageCibleUI.color = new Color(1f, 1f, 1f, 1f);
         JouerSon(mot.audioMotComplet);
 
-        // Préparer la liste des syllabes à afficher
+        // 3. Préparer la liste globale des syllabes (justes + intrus)
         List<(string texte, AudioClip audio)> poolSyllabes = new List<(string, AudioClip)>();
         
+        // Ajouter les syllabes justes
         for (int i = 0; i < mot.syllabesCorrectes.Length; i++)
         {
-            AudioClip clip = (i < mot.audioSyllabes.Length) ? mot.audioSyllabes[i] : null;
+            AudioClip clip = (mot.audioSyllabes != null && i < mot.audioSyllabes.Length) 
+                ? mot.audioSyllabes[i] 
+                : null;
+                
             poolSyllabes.Add((mot.syllabesCorrectes[i], clip));
         }
 
-        foreach (string intrus in mot.syllabesIntrus)
+        // Ajouter les syllabes intruses avec leur fichier audio respectif
+        if (mot.syllabesIntrus != null)
         {
-            poolSyllabes.Add((intrus, null));
+            for (int i = 0; i < mot.syllabesIntrus.Length; i++)
+            {
+                AudioClip clipIntrus = (mot.audioSyllabesIntrus != null && i < mot.audioSyllabesIntrus.Length) 
+                    ? mot.audioSyllabesIntrus[i] 
+                    : null;
+                    
+                poolSyllabes.Add((mot.syllabesIntrus[i], clipIntrus));
+            }
         }
 
-        // Mélanger les syllabes
+        // 4. Mélanger aléatoirement toutes les syllabes
         for (int i = 0; i < poolSyllabes.Count; i++)
         {
             var temp = poolSyllabes[i];
@@ -76,14 +94,30 @@ public class GameManager : MonoBehaviour
             poolSyllabes[randomIndex] = temp;
         }
 
-        // Créer les cartes dans la zone de pioche
+        // 5. Créer les cartes dans la zone de pioche
         for (int i = 0; i < poolSyllabes.Count; i++)
         {
             GameObject nouvelleCarte = Instantiate(prefabCarteSyllabe, zonePioche);
             SyllableCard scriptCarte = nouvelleCarte.GetComponent<SyllableCard>();
-            Color couleur = (i % 2 == 0) ? couleurSyllabe1 : couleurSyllabe2;
             
-            scriptCarte.Initialiser(poolSyllabes[i].texte, poolSyllabes[i].audio, couleur, this);
+            Color couleurChoisie = (i % 2 == 0) ? couleurSyllabe1 : couleurSyllabe2;
+            scriptCarte.Initialiser(poolSyllabes[i].texte, poolSyllabes[i].audio, couleurChoisie, this);
+
+            // Personnaliser la couleur au clic (Pressed Color)
+            Button btn = nouvelleCarte.GetComponent<Button>();
+            if (btn != null)
+            {
+                ColorBlock blocCouleurs = btn.colors;
+                if (couleurChoisie == couleurSyllabe1)
+                {
+                    blocCouleurs.pressedColor = new Color(0f, 0.5f, 1f);
+                }
+                else
+                {
+                    blocCouleurs.pressedColor = new Color(0.2f, 0.7f, 0.3f);
+                }
+                btn.colors = blocCouleurs;
+            }
         }
     }
 
@@ -113,7 +147,7 @@ public class GameManager : MonoBehaviour
             cartesPlacees.RemoveAt(index);
             carte.transform.SetParent(zonePioche);
             carte.DefinirEtatPlace(false);
-            texteFeedback.text = "";
+            if (texteFeedback != null) texteFeedback.text = "";
         }
     }
 
@@ -124,27 +158,28 @@ public class GameManager : MonoBehaviour
 
         if (motForme == motActuel.motComplet)
         {
-            texteFeedback.text = "Bravo ! C'est bien : " + motActuel.motComplet;
-            JouerSon(sonVictoire);
-			// NOUVEAU : Déclencher les confettis
+            if (texteFeedback != null) texteFeedback.text = "Bravo ! C'est bien : " + motActuel.motComplet;
+			//JouerSon(sonVictoire);
+
+            
             if (effetVictoire != null)
             {
                 effetVictoire.Play();
             }
 
-            // NOUVEAU : Ajouter une étoile et mettre à jour l'affichage
             etoilesGagnees++;
             if (texteScore != null)
             {
-                texteScore.text = "Étoiles : " + etoilesGagnees;
+                texteScore.text = "Indices Trouvés : " + etoilesGagnees;
             }
+
             Invoke(nameof(MotSuivant), 2.5f);
 			Invoke(nameof(EndGame), 2.5f);
         }
         else
         {
-            texteFeedback.text = "Écoute bien les syllabes et essaie encore.";
-            JouerSon(sonErreurDoux);
+            if (texteFeedback != null) texteFeedback.text = "Écoute bien les syllabes et essaie encore.";
+            //JouerSon(sonErreurDoux);
 			Invoke(nameof(MotActuel), 1.5f);
         }
     }
@@ -163,7 +198,10 @@ public class GameManager : MonoBehaviour
 
     public void ReecouterMot()
     {
-        JouerSon(listeMots[indexMotActuel].audioMotComplet);
+        if (listeMots != null && listeMots.Count > 0)
+        {
+            JouerSon(listeMots[indexMotActuel].audioMotComplet);
+        }
     }
 
     public void JouerSon(AudioClip clip)
@@ -180,4 +218,6 @@ public class GameManager : MonoBehaviour
 			SceneManager.LoadScene("EndGame");
 		}
 	}
+	
+
 }

@@ -1,0 +1,95 @@
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
+public class SyllableCard : MonoBehaviour
+{
+    public TextMeshProUGUI texteSyllabe;
+    public Button boutonCarte;
+    public Button boutonAudio;
+    
+    private string syllabeValeur;
+    private AudioClip clipAudio;
+    private GameManager gameManager;
+    private bool estPlacee = false;
+
+    public void Initialiser(string texte, AudioClip audio, Color couleurFond, GameManager manager)
+    {
+        syllabeValeur = texte;
+        clipAudio = audio;
+        gameManager = manager;
+        
+        texteSyllabe.text = texte;
+        GetComponent<Image>().color = couleurFond;
+        
+        boutonCarte.onClick.RemoveAllListeners();
+        boutonCarte.onClick.AddListener(OnCarteCliquee);
+
+        if (boutonAudio != null)
+        {
+            boutonAudio.onClick.RemoveAllListeners();
+            boutonAudio.onClick.AddListener(EcouterSyllabeSeule);
+            // Le bouton reste toujours actif et visible sur toutes les cartes
+            boutonAudio.gameObject.SetActive(true);
+			/*
+			Button btn = boutonAudio.GetComponent<Button>();
+	    if (btn != null)
+            {
+                ColorBlock blocCouleurs = btn.colors;
+
+                blocCouleurs.selectedColor = new Color(0f, 0.5f, 1f);
+
+                blocCouleurs.selectedColor = new Color(0.2f, 0.7f, 0.3f);
+                
+                btn.colors = blocCouleurs;
+            }
+			*/
+			/*
+			            Button btn = nouvelleCarte.GetComponent<Button>();
+            if (btn != null)
+            {
+                ColorBlock blocCouleurs = btn.colors;
+                if (couleurChoisie == couleurSyllabe1)
+                {
+                    blocCouleurs.pressedColor = new Color(0f, 0.5f, 1f);
+                }
+                else
+                {
+                    blocCouleurs.pressedColor = new Color(0.2f, 0.7f, 0.3f);
+                }
+                btn.colors = blocCouleurs;
+            }
+			*/
+        }
+    }
+
+    public void EcouterSyllabeSeule()
+    {
+        if (clipAudio != null)
+        {
+            gameManager.JouerSon(clipAudio);
+        }
+    }
+
+    private void OnCarteCliquee()
+    {
+        if (clipAudio != null)
+        {
+            gameManager.JouerSon(clipAudio);
+        }
+
+        if (!estPlacee)
+        {
+            gameManager.SelectionnerSyllabe(this, syllabeValeur);
+        }
+        else
+        {
+            gameManager.RetirerSyllabe(this);
+        }
+    }
+
+    public void DefinirEtatPlace(bool etat)
+    {
+        estPlacee = etat;
+    }
+}
