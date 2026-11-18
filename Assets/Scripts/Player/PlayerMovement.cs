@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -11,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     private Vector2 moveDir;
     public Vector2 lastMoveDir;
+    public List<bool> cantMoveReasons = new List<bool>();
 
     [Header("Animations")]
     private Animator anim;
@@ -38,14 +40,37 @@ public class PlayerMovement : MonoBehaviour
         moveDir = inputs.Player.Move.ReadValue<Vector2>();
 
         if (moveDir != Vector2.zero) lastMoveDir = moveDir;
-        
-        anim.SetFloat("moveX", lastMoveDir.x);
-        anim.SetFloat("moveY", lastMoveDir.y);
-        anim.SetBool("isMoving", moveDir != Vector2.zero);
+
+        if (MoveStatus())
+        {
+            anim.SetFloat("moveX", lastMoveDir.x);
+            anim.SetFloat("moveY", lastMoveDir.y);
+            anim.SetBool("isMoving", moveDir != Vector2.zero);
+        }
     }
 
     void FixedUpdate()
     {
-        rb.linearVelocity = moveDir * Time.fixedDeltaTime * (speed * 10);
+        if (MoveStatus())
+            rb.linearVelocity = moveDir * Time.fixedDeltaTime * (speed * 10);
+    }
+
+    public PlayerInputs GetInputs()
+    {
+        return inputs;
+    }
+
+    public void CanMove(bool value)
+    {
+        if (value)
+            if (cantMoveReasons.Count > 0) cantMoveReasons.Remove(true);
+            else
+                cantMoveReasons.Add(true);
+    }
+
+    public bool MoveStatus()
+    {
+        if (cantMoveReasons.Count > 0) return false;
+        return true;
     }
 }
