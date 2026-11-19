@@ -10,7 +10,7 @@ public class NpcBehaviour : MonoBehaviour
 
     [Header("Dialogue")]
     public NpcDialogue dialogueData;
-    public GameObject dialoguePanel;
+    public GameObject dialogueCanvas;
     public TextMeshProUGUI dialogueText, nameText;
 
     private int dialogueIndex;
@@ -43,7 +43,7 @@ public class NpcBehaviour : MonoBehaviour
 
         nameText.text = dialogueData.npcName;
 
-        dialoguePanel.SetActive(true);
+        dialogueCanvas.SetActive(true);
 
         StartCoroutine(TypeLine());
     }
@@ -91,6 +91,6 @@ public class NpcBehaviour : MonoBehaviour
         StopAllCoroutines();
         isDialogueActive = false;
         dialogueText.text = "";
-        dialoguePanel.SetActive(false);
+        dialogueCanvas.SetActive(false);
     }
 }
