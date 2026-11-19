@@ -1,0 +1,56 @@
+using UnityEngine;
+using UnityEngine.UIElements; // Indispensable pour UI Toolkit
+using UnityEngine.SceneManagement; // Indispensable pour changer de scène
+
+public class EndGame : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+	
+	private Button continuer;
+	private Button rejouer;
+	private Button quitter;
+	private UIDocument uiDocument;
+	private VisualElement root;
+	
+    void Start()
+    {
+        uiDocument = GetComponent<UIDocument>();
+		root = uiDocument.rootVisualElement;
+		continuer = root.Q<Button>("Continuer");
+		rejouer = root.Q<Button>("Rejouer");
+		quitter = root.Q<Button>("Quitter");
+		//monBouton.clicked += OnBoutonClique;
+		rejouer.clicked += Rejoue;
+		quitter.clicked += Quitte;
+		continuer.style.display = DisplayStyle.None;
+		rejouer.style.display = DisplayStyle.Flex;
+		quitter.style.display = DisplayStyle.Flex;
+    }
+
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+	
+	private void Rejoue(){
+		Time.timeScale = 1f;
+		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		SceneManager.LoadScene("MenuStart");
+		Debug.Log("rejoué");
+	}
+	
+	private void Quitte(){
+		Time.timeScale = 1f;
+		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		Debug.Log("quitté");
+		#if UNITY_EDITOR
+			UnityEditor.EditorApplication.isPlaying = false; // Enlève le play mode
+		#endif
+
+		// Ferme le jeu
+		Application.Quit();
+	}
+
+}
