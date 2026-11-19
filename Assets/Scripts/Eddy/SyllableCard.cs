@@ -1,3 +1,4 @@
+using System.Collections; // Indispensable pour utiliser les Coroutines (attente de 1.5s)
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -7,11 +8,17 @@ public class SyllableCard : MonoBehaviour
     public TextMeshProUGUI texteSyllabe;
     public Button boutonCarte;
     public Button boutonAudio;
+
+    [Header("Couleurs du bouton audio")]
+    public Color couleurAudioNormale = Color.white;
+    public Color couleurAudioActive = new Color(1f, 0.85f, 0.3f); // Jaune doux pendant l'écoute
+    public float dureeCouleurActive = 1.0f;
     
     private string syllabeValeur;
     private AudioClip clipAudio;
     private GameManager gameManager;
     private bool estPlacee = false;
+    private Coroutine coroutineCouleur;
 
     public void Initialiser(string texte, AudioClip audio, Color couleurFond, GameManager manager)
     {
@@ -27,11 +34,12 @@ public class SyllableCard : MonoBehaviour
 
         if (boutonAudio != null)
         {
+            // Appliquer la couleur de départ sur le fond du bouton audio
+            boutonAudio.GetComponent<Image>().color = couleurAudioNormale;
+
             boutonAudio.onClick.RemoveAllListeners();
             boutonAudio.onClick.AddListener(EcouterSyllabeSeule);
-            // Le bouton reste toujours actif et visible sur toutes les cartes
             boutonAudio.gameObject.SetActive(true);
-
         }
     }
 
@@ -41,6 +49,31 @@ public class SyllableCard : MonoBehaviour
         {
             gameManager.JouerSon(clipAudio);
         }
+
+        // Lancer le changement de couleur temporaire de 1.5 seconde
+        if (boutonAudio != null)
+        {
+            if (coroutineCouleur != null)
+            {
+                StopCoroutine(coroutineCouleur); // Évite les bugs si le joueur clique plusieurs fois vite
+            }
+            coroutineCouleur = StartCoroutine(ChangerCouleurTemporairement());
+        }
+    }
+
+    private IEnumerator ChangerCouleurTemporairement()
+    {
+        Image fondBouton = boutonAudio.GetComponent<Image>();
+        
+        // 1. Appliquer la couleur active
+        fondBouton.color = couleurAudioActive;
+
+        // 2. Attendre 1.5 seconde
+        yield return new WaitForSeconds(dureeCouleurActive);
+
+        // 3. Revenir à la couleur de départ
+        fondBouton.color = couleurAudioNormale;
+        coroutineCouleur = null;
     }
 
     private void OnCarteCliquee()
