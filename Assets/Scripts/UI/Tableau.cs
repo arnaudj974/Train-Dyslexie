@@ -46,7 +46,6 @@ public class Tableau : MonoBehaviour
 
     public void AfficheTableau(bool show)
     {
-        Debug.Log(show);
         conteneur.gameObject.SetActive(!show);
         btnHide.gameObject.SetActive(!show);
         btnShow.gameObject.SetActive(show);
