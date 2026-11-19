@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a5084a0870d04d9a9b50d9173cec8, type: 3}
+  m_Name: LettresQuai
+  m_EditorClassIdentifier: Assembly-CSharp::WordData
+  motComplet: A
+  imageObjet: {fileID: -8444677429681808961, guid: 1957b9b4898b33241b4a1b0b289d98d9, type: 3}
+  audioMotComplet: {fileID: 8300000, guid: a98f3261753a7e24999343c788f3ccc1, type: 3}
+  syllabesCorrectes:
+  - A
+  audioSyllabes:
+  - {fileID: 8300000, guid: a98f3261753a7e24999343c788f3ccc1, type: 3}
+  syllabesIntrus:
+  - C
+  audioSyllabesIntrus:
+  - {fileID: 8300000, guid: 067ee29f4b35ee64986382baa53f0aa0, type: 3}
