@@ -32,10 +32,8 @@ public class TextVille : MonoBehaviour
         char[] c = new char[taille];
         for(int i=0; i < taille; i++)
         {
-            c[i] = (char)Random.Range(65, 91);
-            if (i != 0) c[i]=System.Char.ToLower(c[i]);
+            c[i] = i != 0 ? System.Char.ToLower((char)Random.Range(65, 91)) : (char)Random.Range(65, 91);
         }
-        string s = new string(c);
-        return s;
+        return new string(c);
     }
 }
