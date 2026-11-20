@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Train : MonoBehaviour
@@ -49,7 +50,7 @@ public class Train : MonoBehaviour
     {
         if (isWin)
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene(nomSceneFinale);
+            SceneManager.LoadSceneAsync(nomSceneFinale);
         }
         else
         {
@@ -64,6 +65,6 @@ public class Train : MonoBehaviour
         HideContainer();
         screenDefaite.gameObject.SetActive(true);
         yield return new WaitForSeconds(5);
-        UnityEngine.SceneManagement.SceneManager.LoadScene(nomSceneMenuPrincipal);
+        SceneManager.LoadSceneAsync(nomSceneMenuPrincipal);
     }
 }
