@@ -1,0 +1,57 @@
+using UnityEngine;
+using UnityEngine.UIElements; // Indispensable pour UI Toolkit
+using UnityEngine.SceneManagement; // Indispensable pour changer de scène
+
+public class StartGame : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+	
+	private Button jouer;
+	private Button option;
+	private Button quitter;
+	private UIDocument uiDocument;
+	private VisualElement root; 
+	
+    void Start()
+    {
+        uiDocument = GetComponent<UIDocument>();
+		root = uiDocument.rootVisualElement;
+		jouer = root.Q<Button>("Jouer");
+		option = root.Q<Button>("Options");
+		quitter = root.Q<Button>("Quitter");
+		jouer.clicked += Joue;
+		option.clicked += Options;
+		quitter.clicked += Quitte;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+	
+	private void Joue()
+    {
+        //Debug.Log("Clic détecté sur : " + monBouton.text + ". Chargement de la scène...");
+        SceneManager.LoadScene("Eddy");
+    }
+	
+	private void Options()
+    {
+        //SceneManager.LoadScene("Options");
+    }
+	
+	private void Quitte(){
+		Time.timeScale = 1f;
+		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		//Debug.Log("quitté");
+		#if UNITY_EDITOR
+			UnityEditor.EditorApplication.isPlaying = false; // Enlève le play mode
+		#endif
+
+		// Ferme le jeu
+		Application.Quit();
+	}
+	
+}
+
