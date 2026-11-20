@@ -22,6 +22,7 @@ public class PauseGame : MonoBehaviour
 		//monBouton.clicked += OnBoutonClique;
 		continuer.clicked += Continue;
 		rejouer.clicked += Rejoue;
+		quitter.clicked += Quitte;
     }
 
 
@@ -55,4 +56,15 @@ public class PauseGame : MonoBehaviour
 		Debug.Log("Scène rejoué");
 	}
 	
+	private void Quitte(){
+		Time.timeScale = 1f;
+		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		//Debug.Log("quitté");
+		#if UNITY_EDITOR
+			UnityEditor.EditorApplication.isPlaying = false; // Enlève le play mode
+		#endif
+
+		// Ferme le jeu
+		Application.Quit();
+	}
 }

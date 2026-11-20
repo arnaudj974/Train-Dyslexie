@@ -6,7 +6,9 @@ public class StartGame : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 	
-	private Button monBouton;
+	private Button jouer;
+	private Button option;
+	private Button quitter;
 	private UIDocument uiDocument;
 	private VisualElement root; 
 	
@@ -14,8 +16,12 @@ public class StartGame : MonoBehaviour
     {
         uiDocument = GetComponent<UIDocument>();
 		root = uiDocument.rootVisualElement;
-		monBouton = root.Q<Button>("Jouer");
-		monBouton.clicked += OnBoutonClique;
+		jouer = root.Q<Button>("Jouer");
+		option = root.Q<Button>("Options");
+		quitter = root.Q<Button>("Quitter");
+		jouer.clicked += Joue;
+		option.clicked += Options;
+		quitter.clicked += Quitte;
     }
 
     // Update is called once per frame
@@ -24,78 +30,29 @@ public class StartGame : MonoBehaviour
         
     }
 	
-	    private void OnBoutonClique()
+	private void Joue()
     {
-        Debug.Log("Clic détecté sur : " + monBouton.text + ". Chargement de la scène...");
-        SceneManager.LoadScene("Game");
+        //Debug.Log("Clic détecté sur : " + monBouton.text + ". Chargement de la scène...");
+        SceneManager.LoadScene("Eddy");
     }
+	
+	private void Options()
+    {
+		Debug.Log("options");
+        //SceneManager.LoadScene("Options");
+    }
+	
+	private void Quitte(){
+		Time.timeScale = 1f;
+		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		//Debug.Log("quitté");
+		#if UNITY_EDITOR
+			UnityEditor.EditorApplication.isPlaying = false; // Enlève le play mode
+		#endif
+
+		// Ferme le jeu
+		Application.Quit();
+	}
+	
 }
 
-/*
-using UnityEngine;
-using UnityEngine.UIElements; // Indispensable pour UI Toolkit
-using UnityEngine.SceneManagement; // Indispensable pour changer de scène
-
-public class MenuController : MonoBehaviour
-{
-    [Header("Configuration")]
-    [Tooltip("Le nom exact de la scène à charger")]
-    public string nomDeLaScene = "Jeu";
-
-    [Tooltip("Le nom (Name) du bouton défini dans UI Builder")]
-    public string nomDuBouton = "BtnJouer";
-
-    private Button monBouton;
-
-    private void OnEnable()
-    {
-        // 1. Récupérer le composant UIDocument attaché à cet objet
-        UIDocument uiDocument = GetComponent<UIDocument>();
-
-        if (uiDocument == null)
-        {
-            Debug.LogError("Aucun composant UIDocument trouvé sur cet objet !");
-            return;
-        }
-
-        // 2. Accéder au rootVisualElement (la racine de l'interface)
-        VisualElement root = uiDocument.rootVisualElement;
-
-        // 3. Trouver le bouton par son nom (Query)
-        monBouton = root.Q<Button>(nomDuBouton);
-
-        if (monBouton != null)
-        {
-            // Afficher le texte actuel du bouton dans la console
-            Debug.Log("Texte du bouton trouvé : " + monBouton.text);
-
-            // (Optionnel) Modifier le texte du bouton par code :
-            // monBouton.text = "Lancer la partie";
-
-            // 4. Abonner une fonction à l'événement du clic
-            monBouton.clicked += OnBoutonClique;
-        }
-        else
-        {
-            Debug.LogError($"Le bouton nommé '{nomDuBouton}' est introuvable dans l'UXML !");
-        }
-    }
-
-    private void OnDisable()
-    {
-        // Toujours désabonner l'événement pour éviter les fuites de mémoire
-        if (monBouton != null)
-        {
-            monBouton.clicked -= OnBoutonClique;
-        }
-    }
-
-    // Fonction exécutée lors du clic
-    private void OnBoutonClique()
-    {
-        Debug.Log("Clic détecté sur : " + monBouton.text + ". Chargement de la scène...");
-        SceneManager.LoadScene("Game");
-    }
-}
-
-*/

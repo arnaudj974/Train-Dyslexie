@@ -9,6 +9,7 @@ public class EndGame : MonoBehaviour
 	private Button continuer;
 	private Button rejouer;
 	private Button quitter;
+	private Label victoire;
 	private UIDocument uiDocument;
 	private VisualElement root;
 	
@@ -19,12 +20,14 @@ public class EndGame : MonoBehaviour
 		continuer = root.Q<Button>("Continuer");
 		rejouer = root.Q<Button>("Rejouer");
 		quitter = root.Q<Button>("Quitter");
+		victoire = root.Q<Label>("Victoire");
 		//monBouton.clicked += OnBoutonClique;
-		rejouer.clicked += Rejoue;
 		quitter.clicked += Quitte;
 		continuer.style.display = DisplayStyle.None;
-		rejouer.style.display = DisplayStyle.Flex;
+		rejouer.style.display = DisplayStyle.None;
 		quitter.style.display = DisplayStyle.Flex;
+		victoire.style.display = DisplayStyle.Flex;
+		//quitter.style.marginTop = 20;
     }
 
 
