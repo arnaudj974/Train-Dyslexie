@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af3e28b1c5400e4c8e230b67546567a, type: 3}
   m_Name: Diag 1_1
   m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
-  npcName: Test Npc
+  npcName: Agent SNCF
   dialoguesLines:
-  - Hey i'm a test npc
-  - This is my second dialog line
+  - "La destination Bordeaux est associ\xE9e \xE0 la croix directionnelle"
   typingSpeed: 0.05
-  autoProgressLines: 0100
-  autoProgressDelay: 1.5
+  autoProgressLines: 01
+  autoProgressDelay: 2.5
