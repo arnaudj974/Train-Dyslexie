@@ -156536,6 +156536,7 @@ MonoBehaviour:
   nomSceneWin: EndGame
   sceneEddy: Eddy
   tableau: {fileID: 6172307729698815510}
+  ticket: {fileID: 6665940494578869395}
   player: {fileID: 1966204901}
 --- !u!4 &1731946336
 Transform:
@@ -159830,6 +159831,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 481a61cea82fcd343b8f086fc5b3b7d6, type: 3}
+--- !u!114 &6665940494578869395 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3751320767785111913, guid: 481a61cea82fcd343b8f086fc5b3b7d6, type: 3}
+  m_PrefabInstance: {fileID: 6665940494578869394}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301a86331944ce84280c696ba8df6fc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1001 &6686963617398341351
 PrefabInstance:
   m_ObjectHideFlags: 0

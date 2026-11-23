@@ -57,6 +57,7 @@ public class Tableau : MonoBehaviour
         {
             conteneur.transform.GetChild(i).GetComponent<Ligne>().Save((char)(65 + i));
         }
+        PlayerPrefs.SetInt("Tableau", conteneur.gameObject.activeSelf ? 1 : 0);
     }
 
     public void Load()
@@ -65,5 +66,6 @@ public class Tableau : MonoBehaviour
         {
             conteneur.transform.GetChild(i).GetComponent<Ligne>().Load((char)(65 + i));
         }
+        AfficheTableau(PlayerPrefs.GetInt("Tableau", 1) == 0 ? true : false);
     }
 }

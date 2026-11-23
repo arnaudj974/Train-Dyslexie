@@ -9,11 +9,19 @@ public class PNJDepart : MonoBehaviour
         audioS = GetComponent<AudioSource>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             if (!audioS.isPlaying) audioS.Play();
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            if (audioS.isPlaying) audioS.Stop();
         }
     }
 }

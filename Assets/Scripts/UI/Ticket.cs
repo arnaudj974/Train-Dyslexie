@@ -18,4 +18,14 @@ public class Ticket : MonoBehaviour
         btnHide.gameObject.SetActive(!show);
         btnShow.gameObject.SetActive(show);
     }
+
+    public void Save()
+    {
+        PlayerPrefs.SetInt("Ticket", image.gameObject.activeSelf ? 1 : 0);
+    }
+
+    public void Load()
+    {
+        AfficheTicket(PlayerPrefs.GetInt("Ticket", 1) == 0 ? true : false);
+    }
 }

@@ -7,6 +7,7 @@ public class TransitionManager : MonoBehaviour
     [SerializeField] string nomSceneWin;
     [SerializeField] string sceneEddy;
     [SerializeField] Tableau tableau;
+    [SerializeField] Ticket ticket;
     [SerializeField] PlayerMovement player;
     void Start()
     {
@@ -19,6 +20,7 @@ public class TransitionManager : MonoBehaviour
         PlayerPrefs.SetInt("inGame", 1);
         tableau.Save();
         player.Save();
+        ticket.Save();
     }
 
     [ContextMenu("Load")]
@@ -26,6 +28,7 @@ public class TransitionManager : MonoBehaviour
     {
         tableau.Load();
         player.Load();
+        ticket.Load();
     }
 
     [ContextMenu("Clear")]
