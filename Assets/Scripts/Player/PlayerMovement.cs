@@ -74,12 +74,14 @@ public class PlayerMovement : MonoBehaviour
         return true;
     }
 
+    [ContextMenu("Save")]
     public void Save()
     {
         PlayerPrefs.SetFloat("PlayerPosX", transform.position.x);
         PlayerPrefs.SetFloat("PlayerPosY", transform.position.y);
     }
 
+    [ContextMenu("Load")]
     public void Load()
     {
         float x = PlayerPrefs.GetFloat("PlayerPosX");

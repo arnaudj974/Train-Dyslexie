@@ -7,6 +7,8 @@ public class NpcBehaviour : MonoBehaviour
 {
     [Header("Status")]
     public bool isPlayerClose;
+    public bool startEddyGame;
+    public bool wasCalled;
 
     [Header("Dialogue")]
     public NpcDialogue dialogueData;
@@ -15,6 +17,28 @@ public class NpcBehaviour : MonoBehaviour
 
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
+
+    void OnEnable()
+    {
+        if (PlayerPrefs.GetInt($"wasCalled{gameObject.GetInstanceID()}") == 2) wasCalled = true;
+        else wasCalled = false;
+
+        if (PlayerPrefs.GetInt($"startEddyGame{gameObject.GetInstanceID()}") == 2) startEddyGame = true;
+        else startEddyGame = false;
+
+        if (wasCalled)
+        {
+            wasCalled = false;
+            StartDialogue();
+        }
+    }
+
+    void OnDisable()
+    {
+        PlayerPrefs.SetInt($"startEddyGame{gameObject.GetInstanceID()}", startEddyGame ? 2 : 1);
+        PlayerPrefs.SetInt($"wasCalled{gameObject.GetInstanceID()}", wasCalled ? 2 : 1);
+    }
+
 
     public bool CanInteract()
     {
@@ -38,6 +62,14 @@ public class NpcBehaviour : MonoBehaviour
 
     void StartDialogue()
     {
+        if (startEddyGame)
+        {
+            startEddyGame = false;
+            wasCalled = true;
+            FindFirstObjectByType<TransitionManager>().ChangeToSceneEddy();
+        }
+
+
         isDialogueActive = true;
         dialogueIndex = 0;
 
@@ -79,7 +111,7 @@ public class NpcBehaviour : MonoBehaviour
 
         isTyping = false;
 
-        if  (dialogueData.autoProgressLines.Length > dialogueIndex && dialogueData.autoProgressLines[dialogueIndex])
+        if (dialogueData.autoProgressLines.Length > dialogueIndex && dialogueData.autoProgressLines[dialogueIndex])
         {
             yield return new WaitForSeconds(dialogueData.autoProgressDelay);
             NextLine();
