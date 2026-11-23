@@ -1,0 +1,66 @@
+using UnityEngine;
+using UnityEngine.UIElements; // Indispensable pour UI Toolkit
+using UnityEngine.SceneManagement; // Indispensable pour changer de scène
+
+public class LooseGame : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+	
+	private Button continuer;
+	private Button rejouer;
+	private Button quitter;
+	private Label defaite;
+	private UIDocument uiDocument;
+	private VisualElement root;
+	private VisualElement fondMenu;
+	
+    void Start()
+    {
+        uiDocument = GetComponent<UIDocument>();
+		root = uiDocument.rootVisualElement;
+		continuer = root.Q<Button>("Continuer");
+		rejouer = root.Q<Button>("Rejouer");
+		quitter = root.Q<Button>("Quitter");
+		defaite = root.Q<Label>("TextEnd");
+		//monBouton.clicked += OnBoutonClique;
+		quitter.clicked += Quitte;
+		continuer.style.display = DisplayStyle.None;
+		rejouer.style.display = DisplayStyle.None;
+		quitter.style.display = DisplayStyle.Flex;
+		defaite.style.display = DisplayStyle.Flex;
+		defaite.text = "DEFAITE";
+		defaite.style.color = Color.red;
+		defaite.style.unityTextOutlineColor = Color.black;
+		defaite.style.unityTextOutlineWidth = 2f;
+		//quitter.style.marginTop = 20;
+		fondMenu = root.Q<VisualElement>("Fond");
+		fondMenu.style.unityBackgroundImageTintColor = new Color(1f, 1f, 1f, 1f);
+    }
+
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+	
+	private void Rejoue(){
+		Time.timeScale = 1f;
+		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		SceneManager.LoadScene("MenuStart");
+		//Debug.Log("rejoué");
+	}
+	
+	private void Quitte(){
+		Time.timeScale = 1f;
+		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		//Debug.Log("quitté");
+		#if UNITY_EDITOR
+			UnityEditor.EditorApplication.isPlaying = false; // Enlève le play mode
+		#endif
+
+		// Ferme le jeu
+		Application.Quit();
+	}
+
+}

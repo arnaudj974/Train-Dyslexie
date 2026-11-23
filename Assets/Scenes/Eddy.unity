@@ -5964,31 +5964,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 263519671467476715, guid: 2265b872972efaf4ab6f1af40b5c8475, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 263519671467476715, guid: 2265b872972efaf4ab6f1af40b5c8475, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 263519671467476715, guid: 2265b872972efaf4ab6f1af40b5c8475, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 228.53
       objectReference: {fileID: 0}
     - target: {fileID: 263519671467476715, guid: 2265b872972efaf4ab6f1af40b5c8475, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 55.86
       objectReference: {fileID: 0}
     - target: {fileID: 263519671467476715, guid: 2265b872972efaf4ab6f1af40b5c8475, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 860
       objectReference: {fileID: 0}
     - target: {fileID: 263519671467476715, guid: 2265b872972efaf4ab6f1af40b5c8475, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -240
       objectReference: {fileID: 0}
     - target: {fileID: 3685927630029948644, guid: 2265b872972efaf4ab6f1af40b5c8475, type: 3}
       propertyPath: m_Name
       value: Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685927630029948644, guid: 2265b872972efaf4ab6f1af40b5c8475, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7367795069801362857, guid: 2265b872972efaf4ab6f1af40b5c8475, type: 3}
       propertyPath: m_Pivot.x

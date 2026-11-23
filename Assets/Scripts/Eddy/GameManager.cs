@@ -174,7 +174,7 @@ public class GameManager : MonoBehaviour
             }
 
             Invoke(nameof(MotSuivant), 2.5f);
-			Invoke(nameof(EndGame), 2.5f);
+			Invoke(nameof(ReturnGame), 2.5f);
         }
         else
         {
@@ -212,10 +212,11 @@ public class GameManager : MonoBehaviour
             lecteurAudio.PlayOneShot(clip);
         }
     }
-	public void EndGame(){
+	public void ReturnGame(){
 		indexMotActuel = (indexMotActuel) % listeMots.Count;
 		if(indexMotActuel == 0){
-			SceneManager.LoadScene("EndGame");
+			//SceneManager.LoadScene("Game");
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 		}
 	}
 	
