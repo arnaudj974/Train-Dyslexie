@@ -9,6 +9,7 @@ public class NpcBehaviour : MonoBehaviour
     public bool isPlayerClose;
     public bool startEddyGame;
     public bool wasCalled;
+    public int npcIndex;
 
     [Header("Dialogue")]
     public NpcDialogue dialogueData;
@@ -20,11 +21,11 @@ public class NpcBehaviour : MonoBehaviour
 
     void OnEnable()
     {
-        if (PlayerPrefs.GetInt($"wasCalled{gameObject.GetInstanceID()}") == 2) wasCalled = true;
-        else if (PlayerPrefs.GetInt($"wasCalled{gameObject.GetInstanceID()}") == 1) wasCalled = false;
+        if (PlayerPrefs.GetInt($"wasCalled{npcIndex}") == 2) wasCalled = true;
+        else if (PlayerPrefs.GetInt($"wasCalled{npcIndex}") == 1) wasCalled = false;
 
-        if (PlayerPrefs.GetInt($"startEddyGame{gameObject.GetInstanceID()}") == 2) startEddyGame = true;
-        else if (PlayerPrefs.GetInt($"startEddyGame{gameObject.GetInstanceID()}") == 1) startEddyGame = false;
+        if (PlayerPrefs.GetInt($"startEddyGame{npcIndex}") == 2) startEddyGame = true;
+        else if (PlayerPrefs.GetInt($"startEddyGame{npcIndex}") == 1) startEddyGame = false;
 
         if (wasCalled)
         {
