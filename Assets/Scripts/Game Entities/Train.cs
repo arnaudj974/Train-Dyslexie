@@ -1,7 +1,6 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Train : MonoBehaviour
@@ -17,11 +16,11 @@ public class Train : MonoBehaviour
 
     void Start()
     {
-        text.text= "Es-tu sûr de prendre le train voie " + voie + " ?";
+        text.text = "Es-tu sûr de prendre le train voie " + voie + " ?";
         container.gameObject.SetActive(false);
         screenDefaite.gameObject.SetActive(false);
-        tableau=FindFirstObjectByType<Tableau>().gameObject;
-        ticket= FindFirstObjectByType<Ticket>().gameObject;
+        tableau = FindFirstObjectByType<Tableau>().gameObject;
+        ticket = FindFirstObjectByType<Ticket>().gameObject;
         transition = FindFirstObjectByType<TransitionManager>();
 
     }
