@@ -25,14 +25,20 @@ public class LooseGame : MonoBehaviour
 		//monBouton.clicked += OnBoutonClique;
 		quitter.clicked += Quitte;
 		continuer.style.display = DisplayStyle.None;
-		rejouer.style.display = DisplayStyle.None;
+		rejouer.style.display = DisplayStyle.Flex;
 		quitter.style.display = DisplayStyle.Flex;
 		defaite.style.display = DisplayStyle.Flex;
 		defaite.text = "DEFAITE";
 		defaite.style.color = Color.red;
 		defaite.style.unityTextOutlineColor = Color.black;
 		defaite.style.unityTextOutlineWidth = 4f;
-		//quitter.style.marginTop = 20;
+		rejouer.clicked += Rejoue;
+		rejouer.style.position = Position.Absolute;
+		rejouer.style.top = 180;
+		quitter.style.position = Position.Absolute;
+		quitter.style.top = 400;
+		defaite.style.position = Position.Absolute;
+		defaite.style.top = 600;
 		fondMenu = root.Q<VisualElement>("Fond");
 		fondMenu.style.unityBackgroundImageTintColor = new Color(1f, 1f, 1f, 1f);
     }

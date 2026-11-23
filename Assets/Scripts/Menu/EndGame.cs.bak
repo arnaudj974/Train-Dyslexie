@@ -27,7 +27,7 @@ public class EndGame : MonoBehaviour
 		continuer.style.display = DisplayStyle.None;
 		rejouer.style.display = DisplayStyle.None;
 		quitter.style.display = DisplayStyle.Flex;
-		//victoire.style.display = DisplayStyle.Flex;
+		victoire.style.display = DisplayStyle.Flex;
 		victoire.text = "VICTOIRE !!!";
 		//quitter.style.marginTop = 20;
 		fondMenu = root.Q<VisualElement>("Fond");

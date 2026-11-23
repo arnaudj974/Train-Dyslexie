@@ -40,14 +40,14 @@ public class EndGame : MonoBehaviour
     {
 
     }
-	
+	/*
 	private void Rejoue(){
 		Time.timeScale = 1f;
 		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		SceneManager.LoadScene("MenuStart");
 		//Debug.Log("rejoué");
 	}
-	
+	*/
 	private void Quitte(){
 		Time.timeScale = 1f;
 		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

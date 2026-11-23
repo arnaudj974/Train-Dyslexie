@@ -23,6 +23,7 @@ public class PauseGame : MonoBehaviour
 		continuer.clicked += Continue;
 		rejouer.clicked += Rejoue;
 		quitter.clicked += Quitte;
+		root.style.display = DisplayStyle.None;
     }
 
 
@@ -38,21 +39,26 @@ public class PauseGame : MonoBehaviour
 	private void Pause(){
 		Time.timeScale = 0f;
 		// Pour afficher le bouton
+		// uiDocument.gameObject.SetActive(true);
+		root.style.display = DisplayStyle.Flex;
 		continuer.style.display = DisplayStyle.Flex;
 		rejouer.style.display = DisplayStyle.Flex;
 		quitter.style.display = DisplayStyle.Flex;
 	}
 	private void Continue(){
 		Time.timeScale = 1f;
+		root.style.display = DisplayStyle.None;
 		continuer.style.display = DisplayStyle.None;
 		rejouer.style.display = DisplayStyle.None;
 		quitter.style.display = DisplayStyle.None;
+		// uiDocument.gameObject.SetActive(false);
+
 	}
 	
 	private void Rejoue(){
 		Time.timeScale = 1f;
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-		//SceneManager.LoadScene("Game");
+		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		SceneManager.LoadScene("MenuStart");
 		Debug.Log("Scène rejoué");
 	}
 	

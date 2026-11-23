@@ -26,10 +26,12 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 63988773ea8c99947b109a1932c24e4d, type: 3}
   - {fileID: 8300000, guid: 50bd01bc86ea8544e8d2bc987f546351, type: 3}
   syllabesIntrus:
-  - J
-  - K
-  - R
+  - C
+  - i
+  - G
+  - O
   audioSyllabesIntrus:
-  - {fileID: 8300000, guid: c5fea04deaff7884995f14eafaff2f6b, type: 3}
-  - {fileID: 8300000, guid: 8526b780294407a4b9197e444751acdf, type: 3}
-  - {fileID: 8300000, guid: 5cbd67ee26b23784ea718e5142eba63b, type: 3}
+  - {fileID: 8300000, guid: 067ee29f4b35ee64986382baa53f0aa0, type: 3}
+  - {fileID: 8300000, guid: d2553231aabb0fa49a5539e2ce92ead7, type: 3}
+  - {fileID: 8300000, guid: bf35635f01b384949bec1e958c0472f7, type: 3}
+  - {fileID: 8300000, guid: a3613604343fdc34293534444071ffd2, type: 3}

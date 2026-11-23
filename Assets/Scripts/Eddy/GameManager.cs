@@ -215,8 +215,8 @@ public class GameManager : MonoBehaviour
 	public void ReturnGame(){
 		indexMotActuel = (indexMotActuel) % listeMots.Count;
 		if(indexMotActuel == 0){
-			//SceneManager.LoadScene("Game");
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+			SceneManager.LoadScene("Game");
+			//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 		}
 	}
 	
