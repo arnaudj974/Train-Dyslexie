@@ -361,7 +361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.764151, g: 0.6711845, b: 0.43614277, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3106,6 +3106,7 @@ GameObject:
   - component: {fileID: 2259156846879394276}
   - component: {fileID: 6125946549494440484}
   - component: {fileID: 5224083438257417715}
+  - component: {fileID: 7691223999169694674}
   m_Layer: 5
   m_Name: Ligne
   m_TagString: Untagged
@@ -3199,6 +3200,22 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &7691223999169694674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302356420938144120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c34939d2f89054bac99ccf46743149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  dropdowns:
+  - {fileID: 5708002831134148205}
+  - {fileID: 5781487251959537031}
+  - {fileID: 4336402322637802977}
 --- !u!1 &6557565022350880912
 GameObject:
   m_ObjectHideFlags: 0
