@@ -10,7 +10,7 @@ public class TransitionManager : MonoBehaviour
     [SerializeField] PlayerMovement player;
     void Start()
     {
-        if (PlayerPrefs.GetInt("inGame") == 1) Load();
+        if (PlayerPrefs.GetInt("inGame", 0) == 1) Load();
     }
     void Save()
     {
