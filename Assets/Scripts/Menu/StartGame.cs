@@ -32,8 +32,9 @@ public class StartGame : MonoBehaviour
 	
 	private void Joue()
     {
-        //Debug.Log("Clic détecté sur : " + monBouton.text + ". Chargement de la scène...");
-        //SceneManager.LoadScene("Game");
+		//Debug.Log("Clic détecté sur : " + monBouton.text + ". Chargement de la scène...");
+		//SceneManager.LoadScene("Game");
+		PlayerPrefs.SetInt("inGame", 0);
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 	

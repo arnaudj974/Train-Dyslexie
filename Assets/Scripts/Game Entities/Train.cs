@@ -11,10 +11,9 @@ public class Train : MonoBehaviour
     [SerializeField] Image screenDefaite;
     [SerializeField] char voie;
     [SerializeField] bool isWin;
-    [SerializeField] string nomSceneMenuPrincipal;
-    [SerializeField] string nomSceneFinale;
     GameObject ticket;
     GameObject tableau;
+    TransitionManager transition;
 
     void Start()
     {
@@ -23,6 +22,7 @@ public class Train : MonoBehaviour
         screenDefaite.gameObject.SetActive(false);
         tableau=FindFirstObjectByType<Tableau>().gameObject;
         ticket= FindFirstObjectByType<Ticket>().gameObject;
+        transition = FindFirstObjectByType<TransitionManager>();
 
     }
     void OnTriggerEnter2D(Collider2D collision)
@@ -50,7 +50,7 @@ public class Train : MonoBehaviour
     {
         if (isWin)
         {
-            SceneManager.LoadSceneAsync(nomSceneFinale);
+            transition.ChangeToSceneWin();
         }
         else
         {
@@ -65,6 +65,6 @@ public class Train : MonoBehaviour
         HideContainer();
         screenDefaite.gameObject.SetActive(true);
         yield return new WaitForSeconds(5);
-        SceneManager.LoadSceneAsync(nomSceneMenuPrincipal);
+        transition.ChangeToSceneLose();
     }
 }

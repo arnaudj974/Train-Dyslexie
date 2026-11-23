@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndGame.unity
     guid: 451cf8ff55f10f049a2d9110e652218b
+  - enabled: 1
+    path: Assets/Scenes/LooseGame.unity
+    guid: 91d36d3aaccff564c881920eee01ed42
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: cb36bb914eed0b847990bc2257372166

@@ -2,18 +2,18 @@ using UnityEngine;
 
 public class Indice : MonoBehaviour
 {
-    AudioSource audio;
+    AudioSource audioS;
 
     void Start()
     {
-        audio = GetComponent<AudioSource>();
+        audioS = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            if (!audio.isPlaying) audio.Play();
+            if (!audioS.isPlaying) audioS.Play();
         }
     }
 }

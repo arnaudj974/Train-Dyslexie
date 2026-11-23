@@ -155284,7 +155284,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4a0dca93703724cac34e5e5f5e8981, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TransitionManager
+  nomSceneLose: LooseGame
+  nomSceneWin: EndGame
+  sceneEddy: Eddy
   tableau: {fileID: 6172307729698815510}
+  player: {fileID: 1966204901}
 --- !u!4 &1731946336
 Transform:
   m_ObjectHideFlags: 0
@@ -155430,6 +155434,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c2d6543565c1544d9824a45614854d9, type: 3}
+--- !u!114 &1966204901 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4879358167722030731, guid: 9c2d6543565c1544d9824a45614854d9, type: 3}
+  m_PrefabInstance: {fileID: 1966204900}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c351f317e18e445ace98d74c4f62a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
 --- !u!1001 &218709198745835602
 PrefabInstance:
   m_ObjectHideFlags: 0
