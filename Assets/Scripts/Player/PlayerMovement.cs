@@ -73,4 +73,18 @@ public class PlayerMovement : MonoBehaviour
         if (cantMoveReasons.Count > 0) return false;
         return true;
     }
+
+    public void Save()
+    {
+        PlayerPrefs.SetFloat("PlayerPosX", transform.position.x);
+        PlayerPrefs.SetFloat("PlayerPosY", transform.position.y);
+    }
+
+    public void Load()
+    {
+        float x = PlayerPrefs.GetFloat("PlayerPosX");
+        float y = PlayerPrefs.GetFloat("PlayerPosY");
+
+        transform.position = new Vector3(x, y, 0f);
+    }
 }
