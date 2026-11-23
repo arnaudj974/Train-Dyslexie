@@ -33,11 +33,12 @@ public class StartGame : MonoBehaviour
 	private void Joue()
     {
         //Debug.Log("Clic détecté sur : " + monBouton.text + ". Chargement de la scène...");
-        SceneManager.LoadScene("Eddy");
+        SceneManager.LoadScene("Game");
     }
 	
 	private void Options()
     {
+		Debug.Log("options");
         //SceneManager.LoadScene("Options");
     }
 	

@@ -12,6 +12,7 @@ public class EndGame : MonoBehaviour
 	private Label victoire;
 	private UIDocument uiDocument;
 	private VisualElement root;
+	private VisualElement fondMenu;
 	
     void Start()
     {
@@ -20,14 +21,17 @@ public class EndGame : MonoBehaviour
 		continuer = root.Q<Button>("Continuer");
 		rejouer = root.Q<Button>("Rejouer");
 		quitter = root.Q<Button>("Quitter");
-		victoire = root.Q<Label>("Victoire");
+		victoire = root.Q<Label>("TextEnd");
 		//monBouton.clicked += OnBoutonClique;
 		quitter.clicked += Quitte;
 		continuer.style.display = DisplayStyle.None;
 		rejouer.style.display = DisplayStyle.None;
 		quitter.style.display = DisplayStyle.Flex;
 		victoire.style.display = DisplayStyle.Flex;
+		victoire.text = "VICTOIRE !!!";
 		//quitter.style.marginTop = 20;
+		fondMenu = root.Q<VisualElement>("Fond");
+		fondMenu.style.unityBackgroundImageTintColor = new Color(1f, 1f, 1f, 1f);
     }
 
 
