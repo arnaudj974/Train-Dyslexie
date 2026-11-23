@@ -1,4 +1,3 @@
-
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine.SceneManagement;
@@ -36,14 +35,31 @@ public class GameManager : MonoBehaviour
     private List<string> reponseJoueur = new List<string>();
     private List<SyllableCard> cartesPlacees = new List<SyllableCard>();
 
+    [Header("Paramètres d'aléatoire")] // NOUVEAU
+    public int nombreIntrusAleatoires = 2; // Nombre de fausses syllabes ajoutées automatiquement
+	public TextMeshProUGUI texteNbSyllabes; // NOUVEAU : Indicateur du nombre de syllabes
+	
     void Start()
     {
         if (listeMots != null && listeMots.Count > 0)
         {
+			MelangerListeMots(); // NOUVEAU : Mélange tous les mots au lancement de la scène
             ChargerMot(indexMotActuel);
         }
     }
-
+	
+    // NOUVEAU : Mélange l'ordre d'apparition des mots
+    private void MelangerListeMots()
+    {
+        for (int i = 0; i < listeMots.Count; i++)
+        {
+            WordData temp = listeMots[i];
+            int randomIndex = Random.Range(i, listeMots.Count);
+            listeMots[i] = listeMots[randomIndex];
+            listeMots[randomIndex] = temp;
+        }
+    }
+	
     public void ChargerMot(int index)
     {
         // 1. Nettoyer les zones précédentes
@@ -60,6 +76,12 @@ public class GameManager : MonoBehaviour
 		imageCibleUI.color = new Color(1f, 1f, 1f, 1f);
         JouerSon(mot.audioMotComplet);
 
+        if (texteNbSyllabes != null)
+        {
+            int nb = mot.syllabesCorrectes.Length;
+            texteNbSyllabes.text = "Choisis " + nb + (nb > 1 ? " syllabes" : " syllabe");
+        }
+		
         // 3. Préparer la liste globale des syllabes (justes + intrus)
         List<(string texte, AudioClip audio)> poolSyllabes = new List<(string, AudioClip)>();
         
@@ -73,7 +95,10 @@ public class GameManager : MonoBehaviour
             poolSyllabes.Add((mot.syllabesCorrectes[i], clip));
         }
 
-        // Ajouter les syllabes intruses avec leur fichier audio respectif
+        // B. NOUVEAU : Construire une réserve de fausses syllabes avec leur audio
+        List<(string texte, AudioClip audio)> reserveIntrus = new List<(string, AudioClip)>();
+
+        // On récupère d'abord les intrus manuels de la fiche s'il y en a
         if (mot.syllabesIntrus != null)
         {
             for (int i = 0; i < mot.syllabesIntrus.Length; i++)
@@ -81,12 +106,48 @@ public class GameManager : MonoBehaviour
                 AudioClip clipIntrus = (mot.audioSyllabesIntrus != null && i < mot.audioSyllabesIntrus.Length) 
                     ? mot.audioSyllabesIntrus[i] 
                     : null;
-                    
-                poolSyllabes.Add((mot.syllabesIntrus[i], clipIntrus));
+                reserveIntrus.Add((mot.syllabesIntrus[i], clipIntrus));
             }
         }
 
-        // 4. Mélanger aléatoirement toutes les syllabes
+        // On ajoute aussi les syllabes des AUTRES mots de la liste comme pièges potentiels
+        foreach (WordData autreMot in listeMots)
+        {
+            if (autreMot == mot) continue; // Ne pas piocher dans le mot actuel
+
+            for (int i = 0; i < autreMot.syllabesCorrectes.Length; i++)
+            {
+                string syllabeCandidate = autreMot.syllabesCorrectes[i];
+                
+                // Vérifier que cette syllabe n'est pas déjà une bonne syllabe du mot actuel
+                bool estDejaDansLeMot = System.Array.Exists(mot.syllabesCorrectes, s => s == syllabeCandidate);
+                
+                if (!estDejaDansLeMot)
+                {
+                    AudioClip clipCandidate = (autreMot.audioSyllabes != null && i < autreMot.audioSyllabes.Length) 
+                        ? autreMot.audioSyllabes[i] 
+                        : null;
+                    reserveIntrus.Add((syllabeCandidate, clipCandidate));
+                }
+            }
+        }
+
+        // Mélanger la réserve d'intrus et en piocher le nombre souhaité
+        for (int i = 0; i < reserveIntrus.Count; i++)
+        {
+            var temp = reserveIntrus[i];
+            int randomIndex = Random.Range(i, reserveIntrus.Count);
+            reserveIntrus[i] = reserveIntrus[randomIndex];
+            reserveIntrus[randomIndex] = temp;
+        }
+
+        int intrusAAjouter = Mathf.Min(nombreIntrusAleatoires, reserveIntrus.Count);
+        for (int i = 0; i < intrusAAjouter; i++)
+        {
+            poolSyllabes.Add(reserveIntrus[i]);
+        }
+
+        // 4. Mélanger l'ensemble des cartes (bonnes syllabes + intrus piochés)
         for (int i = 0; i < poolSyllabes.Count; i++)
         {
             var temp = poolSyllabes[i];
@@ -95,7 +156,7 @@ public class GameManager : MonoBehaviour
             poolSyllabes[randomIndex] = temp;
         }
 
-        // 5. Créer les cartes dans la zone de pioche
+        // 5. Créer les cartes visuelles dans la zone de pioche
         for (int i = 0; i < poolSyllabes.Count; i++)
         {
             GameObject nouvelleCarte = Instantiate(prefabCarteSyllabe, zonePioche);
@@ -104,22 +165,17 @@ public class GameManager : MonoBehaviour
             Color couleurChoisie = (i % 2 == 0) ? couleurSyllabe1 : couleurSyllabe2;
             scriptCarte.Initialiser(poolSyllabes[i].texte, poolSyllabes[i].audio, couleurChoisie, this);
 
-            // Personnaliser la couleur au clic (Pressed Color)
             Button btn = nouvelleCarte.GetComponent<Button>();
             if (btn != null)
             {
                 ColorBlock blocCouleurs = btn.colors;
-                if (couleurChoisie == couleurSyllabe1)
-                {
-                    blocCouleurs.pressedColor = new Color(0f, 0.5f, 1f);
-                }
-                else
-                {
-                    blocCouleurs.pressedColor = new Color(0.2f, 0.7f, 0.3f);
-                }
+                blocCouleurs.pressedColor = (couleurChoisie == couleurSyllabe1) 
+                    ? new Color(0f, 0.5f, 1f) 
+                    : new Color(0.2f, 0.7f, 0.3f);
                 btn.colors = blocCouleurs;
             }
         }
+		MettreAJourCompteurSyllabes();
     }
 
     public void SelectionnerSyllabe(SyllableCard carte, string valeur)
@@ -137,6 +193,7 @@ public class GameManager : MonoBehaviour
         {
             VerifierReponse();
         }
+		MettreAJourCompteurSyllabes();
     }
 
     public void RetirerSyllabe(SyllableCard carte)
@@ -150,6 +207,7 @@ public class GameManager : MonoBehaviour
             carte.DefinirEtatPlace(false);
             if (texteFeedback != null) texteFeedback.text = "";
         }
+		MettreAJourCompteurSyllabes();
     }
 
     private void VerifierReponse()
@@ -159,7 +217,12 @@ public class GameManager : MonoBehaviour
 
         if (motForme == motActuel.motComplet)
         {
-            if (texteFeedback != null) texteFeedback.text = "Bravo ! C'est bien : " + motActuel.motComplet;
+            if (texteFeedback != null){
+				texteFeedback.text = "Bravo ! C'est bien : " + motActuel.motComplet;
+				texteFeedback.color = new Color(0.0f, 0.8f, 0.25f);
+				texteFeedback.outlineWidth = 0.3f; // Épaisseur du contour (comprise entre 0.0 et 1.0)
+				texteFeedback.outlineColor = new Color32(0, 0, 0, 255); // Contour noir
+			} 
 			//JouerSon(sonVictoire);
 
             
@@ -173,28 +236,51 @@ public class GameManager : MonoBehaviour
             {
                 texteScore.text = "Indices Trouvés : " + etoilesGagnees;
             }
-
-            Invoke(nameof(MotSuivant), 2.5f);
-			Invoke(nameof(ReturnGame), 2.5f);
+			Invoke(nameof(MotSuivant), 2f);
+			//Invoke(nameof(ReturnGame), 2f);
         }
         else
         {
-            if (texteFeedback != null) texteFeedback.text = "Écoute bien les syllabes et essaie encore.";
+            if (texteFeedback != null){
+				texteFeedback.text = "Écoute bien les syllabes et essaie encore.";
+				texteFeedback.color = new Color(0.75f, 0.25f, 0.25f);
+				texteFeedback.outlineWidth = 0.3f; // Épaisseur du contour (comprise entre 0.0 et 1.0)
+				texteFeedback.outlineColor = new Color32(0, 0, 0, 255); // Contour noir
+			}
             //JouerSon(sonErreurDoux);
-			Invoke(nameof(MotActuel), 1.5f);
+			Invoke(nameof(MotActuel), 2f);
         }
+
+		/*
+		if(etoilesGagnees == 3){
+			Invoke(nameof(ReturnGame), 1.5f);
+		}
+			*/
     }
 	
     private void MotActuel()
     {
         indexMotActuel = (indexMotActuel) % listeMots.Count;
+		//MelangerListeMots();
         ChargerMot(indexMotActuel);
     }
 	
     private void MotSuivant()
     {
-        indexMotActuel = (indexMotActuel + 1) % listeMots.Count;
-        ChargerMot(indexMotActuel);
+
+		
+	indexMotActuel++;
+
+    // Condition : Si le joueur a trouvé les 3 mots
+    if (indexMotActuel >= 3 || indexMotActuel >= listeMots.Count)
+    {
+        SceneManager.LoadScene("Game"); // Remplacez par le nom exact de votre scène
+		//Invoke(nameof(ReturnGame), 1.5f);
+        return;
+    }
+
+    ChargerMot(indexMotActuel);
+		
     }
 
     public void ReecouterMot()
@@ -213,6 +299,7 @@ public class GameManager : MonoBehaviour
             lecteurAudio.PlayOneShot(clip);
         }
     }
+	/*
 	public void ReturnGame(){
 		indexMotActuel = (indexMotActuel) % listeMots.Count;
 		if(indexMotActuel == 0){
@@ -220,6 +307,16 @@ public class GameManager : MonoBehaviour
 			//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 		}
 	}
-	
+	*/
+	private void MettreAJourCompteurSyllabes()
+    {
+        if (texteNbSyllabes != null && listeMots.Count > 0)
+        {
+            int total = listeMots[indexMotActuel].syllabesCorrectes.Length;
+            int placees = reponseJoueur.Count;
+            texteNbSyllabes.text = "Syllabes placées : " + placees + " / " + total;
+        }
+    }
+
 
 }
