@@ -9,7 +9,7 @@ public class Ligne : MonoBehaviour
     {
         for (int i = 0; i < dropdowns.Length; i++)
         {
-            PlayerPrefs.SetInt((c+i).ToString(), dropdowns[i].value);
+            PlayerPrefs.SetInt(c.ToString() + i.ToString(), dropdowns[i].value);
         }
     }
 
@@ -17,7 +17,7 @@ public class Ligne : MonoBehaviour
     {
         for (int i = 0; i < dropdowns.Length; i++)
         {
-            dropdowns[i].value = PlayerPrefs.GetInt((c + i).ToString(), 0);
+            dropdowns[i].value = PlayerPrefs.GetInt(c.ToString() + i.ToString(), 0);
         }
     }
 }

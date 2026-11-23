@@ -20,6 +20,7 @@ public class PlayerInteractions : MonoBehaviour
 
         if (res != null)
         {
+            res.ActiveImage(true);
             res.isPlayerClose = true;
             closeNpc.Add(res);
         }
@@ -31,6 +32,7 @@ public class PlayerInteractions : MonoBehaviour
 
         if (res != null && closeNpc.Contains(res))
         {
+            res.ActiveImage(false);
             res.isPlayerClose = false;
             closeNpc.Remove(res);
         }

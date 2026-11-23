@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NpcBehaviour : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class NpcBehaviour : MonoBehaviour
     public GameObject dialogueCanvas;
     public TextMeshProUGUI dialogueText, nameText;
 
+    [SerializeField] Image imgControls;
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
 
@@ -36,8 +38,8 @@ public class NpcBehaviour : MonoBehaviour
 
     void OnDisable()
     {
-        PlayerPrefs.SetInt($"startEddyGame{gameObject.GetInstanceID()}", startEddyGame ? 2 : 1);
-        PlayerPrefs.SetInt($"wasCalled{gameObject.GetInstanceID()}", wasCalled ? 2 : 1);
+        PlayerPrefs.SetInt($"startEddyGame{npcIndex}", startEddyGame ? 2 : 1);
+        PlayerPrefs.SetInt($"wasCalled{npcIndex}", wasCalled ? 2 : 1);
     }
 
 
@@ -126,5 +128,10 @@ public class NpcBehaviour : MonoBehaviour
         isDialogueActive = false;
         dialogueText.text = "";
         dialogueCanvas.SetActive(false);
+    }
+
+    public void ActiveImage(bool active)
+    {
+        if(imgControls!=null) imgControls.gameObject.SetActive(active);
     }
 }
