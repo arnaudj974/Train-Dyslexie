@@ -12,6 +12,8 @@ public class TransitionManager : MonoBehaviour
     {
         if (PlayerPrefs.GetInt("inGame", 0) == 1) Load();
     }
+
+    [ContextMenu("Save")]
     void Save()
     {
         PlayerPrefs.SetInt("inGame", 1);
@@ -19,10 +21,17 @@ public class TransitionManager : MonoBehaviour
         player.Save();
     }
 
+    [ContextMenu("Load")]
     void Load()
     {
         tableau.Load();
         player.Load();
+    }
+
+    [ContextMenu("Clear")]
+    void Clear()
+    {
+        PlayerPrefs.DeleteAll();
     }
 
     public void ChangeToSceneEddy()
@@ -39,4 +48,6 @@ public class TransitionManager : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(nomSceneWin);
     }
+
+
 }

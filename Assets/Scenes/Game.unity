@@ -121151,6 +121151,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76de381085e1cc64e8ac8340694e6d83, type: 3}
+--- !u!1 &937952091 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7454761088617820353, guid: 481a61cea82fcd343b8f086fc5b3b7d6, type: 3}
+  m_PrefabInstance: {fileID: 6665940494578869394}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &993990239
 GameObject:
   m_ObjectHideFlags: 0
@@ -155896,6 +155901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColliderTrainH
       objectReference: {fileID: 0}
+    - target: {fileID: 3438499509255405564, guid: 76de381085e1cc64e8ac8340694e6d83, type: 3}
+      propertyPath: ticket
+      value: 
+      objectReference: {fileID: 937952091}
     - target: {fileID: 6505174347482085526, guid: 76de381085e1cc64e8ac8340694e6d83, type: 3}
       propertyPath: m_LocalPosition.x
       value: -72.46811
