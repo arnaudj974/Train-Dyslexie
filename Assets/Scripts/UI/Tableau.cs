@@ -32,7 +32,7 @@ public class Tableau : MonoBehaviour
 
     void ChangeNumVoie()
     {
-        char c= 'A';
+        char c = 'A';
         foreach (Transform ligne in conteneur.transform)
         {
             TextMeshProUGUI voie = ligne.GetChild(2).GetChild(0).GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>();
@@ -50,5 +50,20 @@ public class Tableau : MonoBehaviour
         btnHide.gameObject.SetActive(!show);
         btnShow.gameObject.SetActive(show);
     }
-    
+
+    public void Save()
+    {
+        for (int i = 0; i < conteneur.transform.childCount; i++)
+        {
+            conteneur.transform.GetChild(i).GetComponent<Ligne>().Save((char)(65 + i));
+        }
+    }
+
+    public void Load()
+    {
+        for (int i = 0; i < conteneur.transform.childCount; i++)
+        {
+            conteneur.transform.GetChild(i).GetComponent<Ligne>().Load((char)(65 + i));
+        }
+    }
 }
