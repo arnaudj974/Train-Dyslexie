@@ -21,10 +21,10 @@ public class NpcBehaviour : MonoBehaviour
     void OnEnable()
     {
         if (PlayerPrefs.GetInt($"wasCalled{gameObject.GetInstanceID()}") == 2) wasCalled = true;
-        else wasCalled = false;
+        else if (PlayerPrefs.GetInt($"wasCalled{gameObject.GetInstanceID()}") == 1) wasCalled = false;
 
         if (PlayerPrefs.GetInt($"startEddyGame{gameObject.GetInstanceID()}") == 2) startEddyGame = true;
-        else startEddyGame = false;
+        else if (PlayerPrefs.GetInt($"startEddyGame{gameObject.GetInstanceID()}") == 1) startEddyGame = false;
 
         if (wasCalled)
         {
@@ -67,6 +67,7 @@ public class NpcBehaviour : MonoBehaviour
             startEddyGame = false;
             wasCalled = true;
             FindFirstObjectByType<TransitionManager>().ChangeToSceneEddy();
+            return;
         }
 
 
